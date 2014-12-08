@@ -2,7 +2,6 @@
 author: rodrigomuniz
 comments: true
 date: 2006-03-07 17:23:55+00:00
-layout: page
 slug: contato
 title: Contato
 wordpress_id: 129

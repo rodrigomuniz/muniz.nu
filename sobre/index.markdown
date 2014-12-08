@@ -2,7 +2,6 @@
 author: rodrigomuniz
 comments: false
 date: 2005-11-03 19:11:38+00:00
-layout: page
 slug: sobre
 title: Sobre
 wordpress_id: 47
