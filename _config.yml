@@ -1,6 +1,6 @@
 timezone: America/Sao_Paulo
 #host: muniz.nu
-#baseurl: /muniz.nu
+baseurl: /muniz.nu
 permalink: blog/:title
 sass:
     style: :compressed
