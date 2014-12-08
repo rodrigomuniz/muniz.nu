@@ -73,13 +73,17 @@ a {
 		margin-bottom: 4vw;
 		text-transform: lowercase;
 		letter-spacing: -.08em;
-		color: $deep-purple;
+
 		span {
+			color: #FF0064;
+	        background: -webkit-linear-gradient(#ff0064 50%, $bg-purple 100%);
+	        -webkit-background-clip: text;
+	        -webkit-text-fill-color: transparent;
 			display: block;
 			line-height: 1;
 			overflow: hidden;
 			height: 9vw;
-			border-bottom: 1px solid rgba(255,255,255,.02);
+			border-bottom: 1px solid rgba(255,255,255,.03);
 			@include transition(all 0.3s ease-in-out);
 		}
 		@include animation-name(fadeInUp);
