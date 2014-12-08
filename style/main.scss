@@ -29,6 +29,12 @@ html {
 	border-left: 8px solid $pink;
 	height: 100%;
 }
+body {
+	border-left: 8px solid darken($pink, 30%);
+	height: 100%;
+	background-color: $bg-purple;
+	color: $purple-txt;
+}
 a {
 	color: $purple;
 	@include transition(all 0.3s ease-in-out);
@@ -39,9 +45,6 @@ a {
 	}
 }
 .home {
-	border-left: 8px solid darken($pink, 30%);
-	background-color: $bg-purple;
-	color: $purple-txt;
 	h1 {
 			width: 76px;
 			color: #272741;
@@ -72,18 +75,18 @@ a {
 		margin-bottom: 40px;
 		margin-bottom: 4vw;
 		text-transform: lowercase;
-		letter-spacing: -.08em;
+		letter-spacing: -.07em;
 
 		span {
-			color: #FF0064;
-	        background: -webkit-linear-gradient(#ff0064 50%, $bg-purple 100%);
+			color: #ff0064;
+	        background: -webkit-linear-gradient(#ff0064 60%, $bg-purple 100%);
 	        -webkit-background-clip: text;
 	        -webkit-text-fill-color: transparent;
 			display: block;
 			line-height: 1;
 			overflow: hidden;
 			height: 9vw;
-			border-bottom: 1px solid rgba(255,255,255,.03);
+			border-bottom: 1px solid rgba(255,255,255,.05);
 			@include transition(all 0.3s ease-in-out);
 		}
 		@include animation-name(fadeInUp);
