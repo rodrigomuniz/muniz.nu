@@ -23,10 +23,23 @@
 @import "bootstrap/responsive-utilities";
 
 /*==========  Custom Base  ==========*/
+html {
+	border-left: 8px solid $pink;
+	height: 100%;
+}
+a {
+	color: $purple;
+	@include transition(all 0.3s ease-in-out);
 
+	&:hover {
+		color: $pink;
+		text-decoration: none;
+	}
+}
 .home {
-	background-color: #141423;
-	color: #666699;
+	border-left: 8px solid darken($pink, 30%);
+	background-color: $bg-purple;
+	color: $purple-txt;
 	h1 {
 			width: 76px;
 			color: #272741;
@@ -50,15 +63,31 @@
 			}*/
 		}
 	}
+
 	h2 {
-		font-size: 9vw;
-		margin-bottom: 20px;
+		font-size: 110px;
+		font-size: 12vw;
+		margin-bottom: 40px;
+		margin-bottom: 5vw;
+		text-transform: lowercase;
+		letter-spacing: -.08em;
+		color: $deep-purple;
 		span {
 			display: block;
+			line-height: 1;
+			overflow: hidden;
+			height: 9vw;
+			border-bottom: 1px solid rgba(255,255,255,.02);
+			@include transition(all 0.3s ease-in-out);
 		}
 	}
 	p {
 		font-family: $headings-font-family;
 		font-size: 22px;
+		margin-bottom: 20px;
+		strong {
+			font-weight: 300;
+			color: lighten($purple-txt, 10%);
+		}
 	}
 }
