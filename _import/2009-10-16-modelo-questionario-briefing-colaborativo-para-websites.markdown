@@ -17,7 +17,7 @@ tags:
 - wiki
 ---
 
-**[UPDATE 11.AGO.2012 - Sobre a migração para o Github]**
+**UPDATE 11.AGO.2012 - Sobre a migração para o Github**
 
 
 
