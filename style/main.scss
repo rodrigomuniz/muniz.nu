@@ -22,6 +22,8 @@
 @import "bootstrap/utilities";
 @import "bootstrap/responsive-utilities";
 
+@import "muniz-animations";
+
 /*==========  Custom Base  ==========*/
 html {
 	border-left: 8px solid $pink;
@@ -68,7 +70,7 @@ a {
 		font-size: 110px;
 		font-size: 12vw;
 		margin-bottom: 40px;
-		margin-bottom: 5vw;
+		margin-bottom: 4vw;
 		text-transform: lowercase;
 		letter-spacing: -.08em;
 		color: $deep-purple;
@@ -80,6 +82,14 @@ a {
 			border-bottom: 1px solid rgba(255,255,255,.02);
 			@include transition(all 0.3s ease-in-out);
 		}
+		@include animation-name(fadeInUp);
+		@include animation-timing-function(cubic-bezier(0.34,1.61,0.7,1));
+	}
+		
+	.about {
+		@include animation-name(fadeInUp);
+		@include animation-delay(.4s);
+		@include animation-timing-function(cubic-bezier(0.34,1.61,0.7,1));
 	}
 	p {
 		font-family: $headings-font-family;
