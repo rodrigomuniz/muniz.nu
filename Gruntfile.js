@@ -20,8 +20,16 @@ module.exports = function(grunt) {
         files: ['scripts/**/*.js'],
         tasks: ['default'],
       }
+    },
+    'gh-pages': {
+      options: {
+        base: '_site'
+      },
+      src: ['**']
     }
   });
+
+
 
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
