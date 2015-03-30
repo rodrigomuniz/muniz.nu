@@ -34,6 +34,10 @@ body {
 	background-color: $bg-purple;
 	color: $purple-txt;
 	padding-left: 30px;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 a {
 	color: desaturate($pink, 60%);
@@ -110,7 +114,7 @@ a {
 	}
 	p {
 		font-family: $headings-font-family;
-		font-size: 22px;
+		font-size: 24px;
 		margin-bottom: 20px;
 		strong {
 			font-weight: 300;
