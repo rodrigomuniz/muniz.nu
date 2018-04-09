@@ -1,9 +1,25 @@
-$font-family-sans-serif:  "Source Sans Pro", sans-serif;
-$headings-font-family:    "Source Sans Pro", sans-serif;
-$headings-font-weight:    200 !default;
+$font-family-sans-serif:  "Source Sans Pro";
+$headings-font-family:    $font-family-sans-serif;
+$headings-font-weight:    700 !default;
 
-$purple: 			#34346C;
-$purple-txt: 		#777794;
-$deep-purple: 		#07070D;
-$bg-purple: 		#141423;
+$purple: 			#5F4B8B;
+$purple-txt: 		#3D2D61;
+$deep-purple: 		#3D2D61;
 $pink: 				rgb(255, 0, 101);
+
+.sans-serif {
+  font-family: $font-family-sans-serif,
+                -apple-system, BlinkMacSystemFont,
+               'avenir next', avenir,
+               'helvetica neue', helvetica,
+               ubuntu,
+               roboto, noto,
+               'segoe ui', arial,
+               sans-serif;
+}
+
+.purple { color: $purple; }
+
+.b--deep-purple { border-color: $deep-purple; }
+
+.shadow-deep { box-shadow: 3px 3px 0px 0px rgba( 0, 0, 0, 0.3 ); }
