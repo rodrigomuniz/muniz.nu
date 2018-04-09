@@ -2,123 +2,14 @@
 ---
 
 /*==========  Web fonts  ==========*/
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
+
+/*==========  Tachyons  ==========*/
+@import url(https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css);
 
 /*==========  Bootstrap Components  ==========*/
 
-// Core variables and mixins
-@import "bootstrap/variables";
+// Core variables
 @import "muniz-variables";
-@import "bootstrap/mixins";
-// Reset and dependencies
-@import "bootstrap/normalize";
-@import "bootstrap/print";
-// Core CSS
-@import "bootstrap/scaffolding";
-@import "bootstrap/type";
-@import "bootstrap/code";
-@import "bootstrap/grid";
-// Utility classes
-@import "bootstrap/utilities";
-@import "bootstrap/responsive-utilities";
-
-@import "muniz-animations";
 
 /*==========  Custom Base  ==========*/
-html {
-	height: 100%;
-}
-body {
-	box-shadow: inset 6px 0 0 $pink, inset 12px 0 0 darken($pink, 20%), inset 18px 0 0 darken($pink, 30%), inset 24px 0 0 darken($pink, 40%);
-	height: 100%;
-	background-color: $bg-purple;
-	color: $purple-txt;
-	padding-left: 30px;
-
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-smoothing: antialiased;
-}
-a {
-	color: desaturate($pink, 60%);
-	@include transition(all 0.3s ease-in-out);
-
-	&:hover {
-		color: $pink;
-		text-decoration: none;
-	}
-}
-.home {
-	h1 {
-			width: 76px;
-			color: #272741;
-			padding-top: 50px;
-			font-size: 28px;
-			background-color: rgba(0,0,0,0.2);
-			margin-top: 0;
-			padding-left: 2px;
-		span {
-			display: inline-block;
-			line-height: 0.7;
-			width: 0;
-			overflow: hidden;
-			@include scale(0, 0);
-			@include transition(all 0.3s ease-in-out);
-		}
-		&:hover{
-/*			span {
-				width: 1.8em;
-				@include scale(1, 1);
-			}*/
-		}
-	}
-
-	h2 {
-		font-size: 110px;
-		font-size: 10.5vw;
-		margin-bottom: 40px;
-		margin-bottom: 4vw;
-		margin-top: 0;
-		padding-top: 20px;
-		text-transform: lowercase;
-		letter-spacing: -.07em;
-		font-weight: 100;
-
-		div {
-			position: relative;
-			color: #ff0064;
-			display: block;
-			line-height: 1;
-			overflow: hidden;
-			height: 8vw;
-			border-bottom: 1px solid rgba(255,255,255,.05);
-			@include transition(all 0.3s ease-in-out);
-			&:after {
-				content: " ";
-				position: absolute;
-				box-shadow: inset 0 -0.15em .3em #141423;
-				height: .4em;
-				width: 100%;
-				bottom: 0;
-				left: 0;
-			}
-		}
-		@include animation-name(fadeInUp);
-		@include animation-timing-function(cubic-bezier(0.34,1.61,0.7,1));
-	}
-		
-	.about {
-		@include animation-name(fadeInUp);
-		@include animation-delay(.4s);
-		@include animation-timing-function(cubic-bezier(0.34,1.61,0.7,1));
-	}
-	p {
-		font-family: $headings-font-family;
-		font-size: 24px;
-		margin-bottom: 20px;
-		strong {
-			font-weight: 300;
-			color: lighten($purple-txt, 10%);
-		}
-	}
-}
