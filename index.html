@@ -1,12 +1,12 @@
 ---
 title: DJ Rodrigo Muniz
 subtitle: Black Music, Música Afro Brasileira, Baile Funk, Baile Charme
-description: Pernambucano vivendo no Rio desde 2013 com o compromisso de tocar mais do que se quer, o que precisa ser ouvido.
+description: Sou pernambucano vivendo no Rio desde 2013 com o compromisso de tocar mais do que se quer, o que precisa ser ouvido.
 ---
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="dj, black music, r&b, hip hop, rap, afrobeat, dancehall, manguebeat, funk, reggaeton, latina">
+<meta name="keywords" content="dj, black music, r&b, hip hop, rap, afrobeat, dancehall, manguebeat, funk, soul, latina">
 <meta name="author" content="Rodrigo Muniz">
 
 <head>
@@ -26,8 +26,8 @@ description: Pernambucano vivendo no Rio desde 2013 com o compromisso de tocar m
 <header class="black-50 vh-75-ns dt ph3 ph5-ns pv4">
 	<div class="dtc v-mid">
 		<h1 class="f2 f1-m f-subheadline-ns fw2 ma0 mb3 lh-solid tracked-tight black-40">Oi sou o <br /><strong class="purple ttu fw6">{{ page.title }}</strong>,</h1>
-		<p class="f3 f2-m f2-ns fw3 lh-title-ns mw7">{{ page.description }}</p>
-		<p class="f3 f2-m f2-ns fw3 lh-title-ns mw7">Sou <strong class="black-70 i">Black Music</strong>, <strong class="black-70">Brasilidade</strong>, <strong class="black-70">Tropical</strong>, <strong class="black-70">Afrofuturista</strong> — e sou ainda:</p>
+		<p class="f3 f2-m f2-ns fw3 lh-title-ns mw7">Eu sou <strong class="black-70 ttu fw6" id="carousel"></strong>.</p>
+		<p class="f3 f2-m f2-ns fw3 lh-title-ns mw7">{{ page.description }} E sou ainda:</p>
 	</div>
 </header>
 
@@ -94,6 +94,30 @@ description: Pernambucano vivendo no Rio desde 2013 com o compromisso de tocar m
 </footer>
 
 </body>
+<script type="text/javascript" src="scripts/replace.js"></script>
+<script type="text/javascript">
+var carousel = new Carousel();
+carousel
+    .add('Black Music')
+    .add('Brasilidade')
+		.add('Funk')
+    .add('Tropical')
+    .add('R&B')
+		.add('Afrofuturismo')
+    .add('Hip Hop')
+    .add('Rap')
+    .add('Twerk')
+    .add('Afrobeat')
+		.add('Soul')
+    .add('Dancehall')
+    .add('Manguebeat')
+    .showFor(2000) // set the time in milliseconds how long a word is shown
+    .onUpdate(
+        function (partial) {
+            document.getElementById('carousel').innerHTML = partial;
+        }
+    ).run(); // start the loop
+</script>
 <script src="scripts/main.js"></script>
 
 <script>
