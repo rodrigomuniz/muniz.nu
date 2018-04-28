@@ -15,5 +15,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/rodrigomuniz/muniz.nu.git"
-  }
+  },
+  "dependencies": {}
 }
