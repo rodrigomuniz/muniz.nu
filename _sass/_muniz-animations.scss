@@ -5,6 +5,11 @@
   animation-fill-mode: both;
 }
 
+.transition {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
 @-webkit-keyframes fadeInUp {
   0% {
     opacity: 0;
