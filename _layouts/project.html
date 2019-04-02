@@ -1,0 +1,28 @@
+{% include design-top.html %}
+<header>
+	<nav class="pa3 pv4-ns ph5-ns">
+	  <a class="link purple fw6 f6 f5-ns hover-hot-pink mr2" href="/" title="Início">muniz.nu</a>
+	  <span class="link gray    f6 f5-ns dib mr2" href="#">/</span>
+	  <a class="link purple fw6 f6 f5-ns hover-hot-pink mr2" href="/design">design</a>
+		<span class="link gray    f6 f5-ns dib mr2" href="#">/</span>
+	  <span class="link gray    f6 f5-ns dib mr2" href="#"><strong class="black-40">projeto:</strong> {{ page.title }}</span>
+	</nav>
+</header>
+
+<section>
+	<article class="mw9 center pv4 pv5-ns">
+		<header class="ph3 ph5-ns">
+			<h1 class="f2 f-headline-ns ma0 purple lh-solid relative">
+				{{ page.title }}
+				<strong class="tracked black-30 f5 f3-ns ttu absolute top--1 left-0">{{ page.client }}</strong>
+			</h1>
+		</header>
+		<div class="w-100 black-70">
+		{{ content }}
+		</div>
+	</article>
+</section>
+
+{% include other-projects.html %}
+
+{% include design-footer.html %}
