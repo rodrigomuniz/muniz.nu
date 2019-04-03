@@ -1,27 +1,47 @@
 {% include design-top.html %}
 <header>
 	<nav class="pa3 pv4-ns ph5-ns">
-	  <a class="link purple fw6 f6 f5-ns hover-hot-pink mr2" href="/" title="Início">muniz.nu</a>
-	  <span class="link gray    f6 f5-ns dib mr2" href="#">/</span>
-	  <a class="link purple fw6 f6 f5-ns hover-hot-pink mr2" href="/design">design</a>
-		<span class="link gray    f6 f5-ns dib mr2" href="#">/</span>
-	  <span class="link gray    f6 f5-ns dib mr2" href="#"><strong class="black-40">projeto:</strong> {{ page.title }}</span>
+	  <a class="link purple fw6 f6 f5-ns hover-hot-pink mr1 mr2-ns" href="/" title="Início">muniz.nu</a>
+	  <span class="link black-20    f6 f5-ns dib mr1 mr2-ns" href="#">/</span>
+	  <a class="link purple fw6 f6 f5-ns hover-hot-pink mr1 mr2-ns" href="/design">design</a>
+		<span class="link black-20    f6 f5-ns dib mr1 mr2-ns" href="#">/</span>
+	  <span class="link gray    f6 f5-ns dib mr1 mr2-ns" href="#"><strong class="black-30">projeto:</strong> {{ page.title }}</span>
 	</nav>
 </header>
 
+{%if page.hero_image %}
 <section>
-	<article class="mw9 center pv4 pv5-ns">
-		<header class="ph3 ph5-ns">
-			<h1 class="f2 f-headline-ns ma0 purple lh-solid relative">
-				{{ page.title }}
-				<strong class="tracked black-30 f5 f3-ns ttu absolute top--1 left-0">{{ page.client }}</strong>
-			</h1>
-		</header>
-		<div class="w-100 black-70">
+	<article class="pb5 pb5-ns">
+		<div class="vh-50 vh-75-ns w-100 contain relative mb5" style="background:#f0f0f0 url({{ page.hero_image }}) no-repeat center;">
+			<header class="w-100 w-90-ns absolute bottom--2 left-0">
+				<strong class="tracked black-30 f4 f3-ns ttu dib bg-white-80 pv2 pv3-ns ph2 ph5-ns">{{ page.client }}, {{ page.project_year }}</strong>
+				<h1 class="f1 f-headline-ns ma0 purple lh-solid bg-white-80 pv2 pv3-ns ph2 ph5-ns">
+					{{ page.title }}
+				</h1>
+			</header>
+		</div>
+		<div class="w-100 black-70 f4">
 		{{ content }}
 		</div>
 	</article>
 </section>
+
+{% else %}
+<section>
+	<article class="mw9 center pv4 pv5-ns">
+		<header class="ph3 ph5-ns">
+			<h1 class="f1 f-headline-ns ma0 purple lh-solid relative">
+				{{ page.title }}
+				<strong class="tracked black-30 f5 f3-ns ttu absolute top--1 left-0">{{ page.client }}, {{ page.project_year }}</strong>
+			</h1>
+		</header>
+
+		<div class="w-100 black-70 f4">
+		{{ content }}
+		</div>
+	</article>
+</section>
+{% endif %}
 
 {% include other-projects.html %}
 

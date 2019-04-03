@@ -1,0 +1,98 @@
+---
+layout: project
+order: 1
+client: "VTEX"
+title: "IO Navigation"
+project_year: 2017
+hero_image: /images/portfolio/io-navigation.png
+excerpt: "Liderei o processo de redesign completo e simplificação da navegação dos módulos da plataforma de e-commerce, que ganhou uma nova versão chamada VTEX IO"
+---
+<div class="ph2 ph5-ns">
+<p class="f3 f2-ns lh-title measure center tl tc-ns">Chamada de <em>VTEX IO</em>, a nova versão da plataforma de e-commerce em 2017 estava ganhando um redesign completo e um paradigma novo, onde lojas online rodariam extensões/<em>apps</em> criadas pelo ecossistema de parceiros da VTEX. Isto despertou uma grande preocupação com complexidade, que já atingia boa parte da versão antiga do produto. Uma delas estava na forma de navegar pelos módulos.</p>
+
+<h3 class="f3 f2-ns fw4 mv0 pt4 black-40 ttu">Navegação antiga</h3>
+
+<img src="/images/portfolio/topbar-old.png" alt="Antiga navegação" class="dib mv3" />
+
+<p class="measure lh-copy black-50 mv1 mh0">
+  Apesar de parecer bastante simples e flexível, a versão antiga da navegação seguia uma lógica baseada nos nomes usados internamente pela VTEX para batizar os módulos.
+   O modelo mental estava errado, o que fazia com que novos usuários precisassem aprender o que cada módulo fazia antes de conseguir usá-los—isto restringia muito a explorabilidade da plataforma e criava uma dependência por uma documentação. Outro problema é que não havia uma solução de subnavegação, ou seja, uma forma rápida de ir diretamente para uma subseção de cada módulo.
+</p>
+
+<h3 class="f3 f2-ns fw4 mv0 pt4 black-40 ttu">Desafios de Design</h3>
+
+<img src="/images/portfolio/io-navigation-iso.jpg" alt="Primeiros rascunhos da navegação" class="dib mv3" />
+
+<p class="measure lh-copy mv1 mh0">Além de substituir a antiga, esta nova navegação precisava também:</p>
+<ul class="measure lh-copy">
+  <li>Ser <em>mobile-first</em></li>
+  <li>Servir como uma das bases visuais para o novo <em>Design System</em> da nova identidade visual da empresa</li>
+  <li>Possuir uma estrutura de organização atendendo aos novos e antigos módulos, que ainda estariam em uso na fase de migração das versões da plataforma</li>
+  <li>Ser lançada juntamente com uma loja de extensões chamada de <em>Extension Store</em></li>
+  <li>Aceitar links de apps criadas por terceiros, parceiros que futuramente iriam ter a possibilidade de inserir novos módulos no gerenciador das lojas de seus clientes</li>
+  <li>Conter a solução para publicação de alterações nas lojas, baseada em versionamento semelhante ao Git (chamada internamente de <em>Workspaces</em>)</li>
+</ul>
+
+<h4 class="f4 f3-ns fw6 mv0 pt2 black-40">Princípios de design</h4>
+<p class="lh-copy measure mb0">
+Com base nas restrições definimos os seguintes princípios de design para a navegação:</p>
+
+<ul class="measure lh-copy mt2">
+  <li>Consistente</li>
+  <li>Direta</li>
+  <li>Extensível</li>
+  <li>Útil</li>
+</ul>
+
+<h4 class="f4 f3-ns fw6 mv0 pt2 black-40">Arquitetura da Informação</h4>
+<p class="lh-copy measure">Ao pensar e discutir a solução—chegamos rapidamente à conclusão que iniciamente, a organização e agrupamentos das informações seriam os maiores desafios do projeto.</p>
+
+<img src="/images/portfolio/map-links-and-fields.jpg" alt="Esquema de levantamento da estrutura de navegação da platfaforma" class="dib mv3" />
+
+<p class="measure lh-copy black-50 mv1 mh0">
+  Baseado no trabalho de levantamento de todos os links da plataforma feito pelo Bernardo Lemgruber algumas semanas antes, iniciei a aferição e facilitei alguns workshops rápidos com membros da equipe de suporte técnico. O objetivo era chegarmos numa lógica de agrupamento das informações que fosse facilmente entendida. Foi nesta etapa que decidimos levar em consideração não mais apenas o contexto VTEX mas o contexto geral de e-commerce, trocando o uso do nome dos módulos por um vocabulário mais comum como, por exemplo: Vendas, Pagamentos e Preços.
+</p>
+
+<img src="/images/portfolio/map-links.jpg" alt="Esquema de levantamento da estrutura dos links da platfaforma" class="dib mv3" />
+
+<h4 class="f4 f3-ns fw6 mv0 pt4 black-40">Benchmark</h4>
+<p class="measure lh-copy black-50">Criamos um <em>moodboard</em> para guardar referências de <em>benchmark</em> e trabalhamos também com uma planilha para explorarmos diferentes tipos de agrupamentos de todos os links da plataforma.</p>
+
+<img src="/images/portfolio/nav-papel.jpg" alt="Primeiros rascunhos da navegação" class="dib mv3" />
+<p class="measure lh-copy black-50 mv1 mh0">O trabalho, que tinha feito no ano anterior, de categorização dos artigos da base de conhecimento do <em>Help Center</em> da plataforma também foi levado em consideração. Porém além das referências internas, fizemos uma pesquisa de similares em navegações de produtos de outras plataformas de e-commerce e em sistemas de CMS em geral para analisar não só estrutura como seus comportamentos. Foi então que iniciamos a prototipação em papel.</p>
+
+<h3 class="f3 f2-ns fw4 mv0 pt4 black-40 ttu">Protótipos</h3>
+
+<img src="/images/portfolio/extension-store-visual-birds-eye-view.jpg" alt="Variações de layouts na Extension Store" class="dib mv3" />
+<p class="measure lh-copy black-50 mv1 mh0">Juntamente com a Luiza Breier, trabalhei no design visual e estrutura geral da <em>Extension Store</em>, módulo que serviria como base tanto para a nova navegação quanto para o novo <em>Styleguide</em> da plataforma. Dedicamos alguns dias para uma ampla geração de variantes de layouts e coleta de feedbacks com a equipe de design.</p>
+
+<img src="/images/portfolio/nav-variations.png" alt="Versões da navegação" class="dib mv3" />
+<p class="measure lh-copy black-50 mv1 mh0">Iniciamente a estrutura da navegação foi projetada para ter 3 grandes variantes: mobile, desktop e desktop minimizada (que foi descartada).</p>
+
+<h4 class="f4 f3-ns fw6 mv0 pt4 black-40">Quick Search</h4>
+<video controls width="100%" class="db mv3">
+  <source src="/images/portfolio/nav-quick-search.webm"
+          type="video/webm">
+  <source src="/images/portfolio/nav-quick-search.mp4"
+          type="video/mp4">
+</video>
+
+<p class="measure lh-copy black-50 mv1 mh0">A busca rápida vinha como solução para várias questões da navegação. Não só serveria claramente aos princípios "Útil" e "Direta" como forma de navegação rápida, como também serviria para o usuário encontrar área equivalente aos módulos da versão antiga na nova versão durante o período de migração. No exemplo do vídeo, ao buscar pelo antigo módulo de gerenciamento de vendas "OMS", o usuário é apresentado com o resultado do módulo de vendas na nova plataforma.</p>
+
+<h4 class="f4 f3-ns fw6 mv0 pt4 black-40">O velho e o novo</h4>
+<img src="/images/portfolio/nav-old-admins.gif" alt="Navegação como sidebar nos módulos antigos" class="dib mv3" />
+<p class="measure lh-copy black-50 mv1 mh0">Como a navegação precisaria também estar presente na versão antiga dos módulos, prototipamos uma versão que a apresentaria como uma <em>sidebar</em> ao clicar no ícone de menu no topo do gerenciador antigo.</p>
+
+<h4 class="f4 f3-ns fw6 mv0 pt4 black-40">Solução final</h4>
+<img src="/images/portfolio/nav-final.png" alt="IO Navigation" class="dib mv3" />
+<p class="measure lh-copy black-50 mv1 mh0">Na semana de anúncio da Extension Store no evento anual de lançamentos da empresa, o VTEX Day, foi possível realizar alguns testes de usabilidade de guerrilha com parceiros e membros da equipe do financeiro da VTEX. As maiores questões encontradas foram de performance e alguns bugs que seriam corrigidos rapidamente antes do lançamento do <em>public beta</em>.</p>
+
+<h3 class="f4 f3-ns fw4 mv0 pt4 black-40 ttu">Time e Créditos</h3>
+<ul class="measure lh-copy black-50 f5 list pl0">
+  <li><strong>Anderson Moreira</strong>, Backend Developer</li>
+  <li><strong>Guilherme Rodrigues</strong>, Frontend Developer</li>
+  <li><strong>Luiza Breier</strong>, Jr. Designer</li>
+  <li><strong>Thor Amorim</strong>, Jr. Frontend Developer</li>
+</ul>
+
+</div>
