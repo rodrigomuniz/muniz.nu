@@ -2,9 +2,9 @@
 layout: project
 order: 2
 client: "VTEX"
-title: "Storefront"
+title: "Storefront e Render"
 project_year: 2017
-excerpt: "Colaborei com definição da visão de produto, vocabulário, jornada de usuário e developer experience da ferramenta para criação, desenvolvimento e testes de lojas da plataforma de e-commerce"
+excerpt: "Colaborei com a definição da visão de produto, vocabulário, jornada de usuário e <em>developer experience</em> da ferramenta para criação, desenvolvimento e testes de lojas da plataforma de e-commerce"
 ---
 
 ## Nulla non ultricies sem
