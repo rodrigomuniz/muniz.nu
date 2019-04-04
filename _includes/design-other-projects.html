@@ -1,0 +1,9 @@
+<section class="mv4 pv5 ph3 bt bw1 b--dashed br-0 bb-0 bl-0 b--black-10">
+<h2 class="f2 f2-m f1-ns fw4 mv0 pt4 pt5-ns pb3 pb5-ns black-40 tc">Mais Projetos</h2>
+{% assign projects = site.portfolio | where_exp:"post","post.url != page.url" | sort:"order"  %}
+{% for project in projects limit:5 %}
+
+{% include design-project.html %}
+
+{% endfor %}
+</section>
