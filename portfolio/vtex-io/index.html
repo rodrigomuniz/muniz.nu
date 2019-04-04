@@ -18,6 +18,10 @@
 </head>
 <body class="home sans-serif mw8 mw9-ns center ma0 dark-gray">
 
+<script src="https://unpkg.com/smartphoto@1.1.0/js/smartphoto.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/smartphoto@1.1.0/css/smartphoto.min.css">
+
+
 <header>
 	<nav class="pa3 pv4-ns ph5-ns ttl">
 	  <a class="link purple fw6 f6 f5-ns hover-hot-pink mr1 mr2-ns" href="/" title="Início">muniz.nu</a>
@@ -50,8 +54,9 @@
   </div>
   <div class="fl w-100 w-100-m w-50-ns ph2 ph2-m ph0-ns">
     <p class="measure center lh-copy black-50 mv1 mh0">
-      Apesar de parecer bastante simples e flexível, a versão antiga da navegação seguia uma lógica baseada nos nomes usados internamente pela VTEX para batizar os módulos.
-      O modelo mental estava errado, o que fazia com que novos usuários precisassem aprender o que cada módulo fazia antes de conseguir usá-los—isto restringia muito a explorabilidade da plataforma e criava uma dependência por uma documentação. Outro problema é que não havia uma solução de subnavegação, ou seja, uma forma rápida de ir diretamente para uma subseção de cada módulo.
+      Apesar de parecer bastante simples e flexível, a versão antiga da navegação seguia uma lógica baseada nos nomes usados internamente pela VTEX para batizar seus módulos.
+      O <strong>modelo mental estava errado</strong>, o que fazia com que novos usuários precisassem aprender o que cada módulo fazia antes de conseguir usá-los—isto restringia muito a explorabilidade da plataforma e criava uma <strong>dependência por uma documentação</strong>.</p>
+    <p class="measure center lh-copy black-50 mv1 mh0">Outro problema é que não havia uma solução de subnavegação, ou seja, uma forma rápida de ir diretamente para uma subseção de cada módulo. Na prática, <strong>a navegação não era direta</strong>.
     </p>
   </div>
 </div>
@@ -67,10 +72,9 @@
     <ul class="black-50 measure center center-m mh0-ns lh-copy ma0">
       <li>Ser <em>cross-device</em> <em>mobile-first</em></li>
       <li>Servir como uma das bases visuais para o novo <em>Design System</em> da nova identidade visual da empresa</li>
-      <li>Possuir uma estrutura de organização e agrupamento de links atendendo aos novos e antigos módulos, numa fase de migração das versões da plataforma</li>
-      <li>Ser lançada juntamente com uma loja de extensões chamada de <em>Extension Store</em></li>
+      <li>Possuir uma arquitetura de organização e agrupamento de links que atendesse aos novos e antigos módulos, para a fase de migração das versões da plataforma</li>
       <li>Ter flexibilidade para receber links de apps criadas por terceiros, parceiros que futuramente iriam ter a possibilidade de inserir novos módulos no gerenciador das lojas de seus clientes</li>
-      <!-- <li>Conter a solução para publicação de alterações nas lojas, baseada em versionamento semelhante ao Git (chamada internamente de <em>Workspaces</em>)</li> -->
+      <li>Ser lançada juntamente com uma loja de extensões chamada de <em>Extension Store</em></li>
     </ul>
   </div>
   <div class="fr w-100 w-100-m w-40-ns tc tc-m tr-ns">
@@ -87,13 +91,14 @@
 <h3 class="ph2 f2 f1-ns fw2 mv0 pt4 pt5-ns pb3 black-40 tc-ns">Arquitetura da Informação</h3>
 <div class="cf ph2-ns">
   <div class="fl w-100 w-100-m w-50-ns ph4">
-    <img src="/images/portfolio/map-links-and-fields.jpg" alt="Esquema de levantamento da estrutura de navegação da platfaforma" class="dib mv1" />
+    <a href="/images/portfolio/map-links-and-fields.jpg" class="js-smartPhoto mv1" data-group="0">
+    <img src="/images/portfolio/map-links-and-fields-small.jpg" alt="Esquema de levantamento da estrutura de navegação da platfaforma" class="dib" /></a>
   </div>
   <div class="fl w-100 w-100-m w-50-ns ph2 ph2-m ph0-ns">
     <p class="f4 f3-ns lh-copy black-50 measure center mt0">Iniciamente ao discutir a solução, chegamos rapidamente à conclusão que a organização e agrupamentos das informações seriam os maiores desafios do projeto.</p>
 
     <p class="measure center mh0-ns lh-copy black-50 mt0">
-      Baseado no trabalho de levantamento de todos os links da plataforma feito algumas semanas antes pelo Bernardo Lemgruber, iniciei a aferição e facilitei alguns workshops rápidos com membros da equipe de suporte técnico. O objetivo era chegarmos numa lógica de agrupamento das informações que fosse facilmente entendida. Foi nesta etapa que decidimos levar em consideração não mais apenas o contexto VTEX mas o contexto geral de e-commerce, trocando o uso do nome dos módulos por um vocabulário mais comum como, por exemplo: Vendas, Pagamentos e Preços.
+      Baseado no trabalho incrível de levantamento de todos os links da plataforma feito algumas semanas antes pelo Bernardo Lemgruber, iniciei uma aferição e facilitei alguns workshops rápidos com membros da equipe de suporte técnico. O objetivo era chegarmos numa lógica de agrupamento das informações que fosse facilmente entendida. Foi nesta etapa que decidimos levar em consideração <strong>não mais apenas o contexto VTEX mas o contexto geral de e-commerce</strong>, trocando o uso do nome dos módulos como OMS e PCI Gateway  por um vocabulário mais comum como <strong>Vendas, Pagamentos e Preços</strong>.
     </p>
   </div>
 </div>
@@ -103,7 +108,9 @@
 <h3 class="ph2 f2 f1-ns fw2 mv0 pt4 pt5-ns pb3 black-40 tc-ns">Benchmark</h3>
 <div class="cf ph2-ns">
   <div class="fl w-100 w-100-m w-50-ns">
-    <img src="/images/portfolio/nav-papel.jpg" alt="Primeiros rascunhos da navegação" class="dib mv1" />
+    <a href="/images/portfolio/nav-papel.jpg" class="js-smartPhoto mv1" data-group="benchmark">
+      <img src="/images/portfolio/nav-papel-small.jpg" alt="Primeiros rascunhos da navegação" class="dib" />
+    </a>
   </div>
   <div class="fl w-100 w-100-m w-50-ns ph2 ph2-m ph4-ns">
     <p class="f4 f3-ns measure center lh-copy black-50 mt0">Nesta etapa criamos um <em>moodboard</em> para guardar referências de <em>benchmark</em> e trabalhamos também com uma planilha para explorarmos diferentes tipos de agrupamentos de todos os links da plataforma.</p>
@@ -116,10 +123,14 @@
 <h3 class="ph2 f2 f1-ns fw2 mv0 pt4 pt5-ns pb3 black-40 tc-ns">Protótipos</h3>
 <div class="cf ph2-ns">
   <div class="fl w-100 w-100-m w-50-ns ph4">
-    <img src="/images/portfolio/nav-white-board.jpg" alt="Rascunhos de estrutura da navegação" class="dib mv3" />
+    <a href="/images/portfolio/nav-white-board.jpg" class="js-smartPhoto mv3" data-group="whiteboard">
+      <img src="/images/portfolio/nav-white-board-small.jpg" alt="Rascunhos de estrutura da navegação" class="dib" />
+    </a>
   </div>
   <div class="fl w-100 w-100-m w-50-ns ph2 ph2-m ph0-ns">
-    <img src="/images/portfolio/nav-white-board-extesion.jpg" alt="Início dos rascunhos de estrutura da Extension Store" class="dib mv3" />
+    <a href="/images/portfolio/nav-white-board-extesion.jpg" class="js-smartPhoto mv3" data-group="whiteboard">
+      <img src="/images/portfolio/nav-white-board-extesion-small.jpg" alt="Início dos rascunhos de estrutura da Extension Store" class="dib" />
+    </a>
   </div>
 </div>
 
@@ -128,7 +139,9 @@
   <p class="f4 f3-ns measure center lh-copy black-50 mh0 ph2 ph0-ns">A seguir uma visão geral de uma das versões do arquivo Sketch do produto:</p>
 </div>
 
-<img src="/images/portfolio/extension-store-visual-birds-eye-view.jpg" alt="Variações de layouts na Extension Store" class="dib mv3" />
+<a href="/images/portfolio/extension-store-visual-birds-eye-view.jpg" class="js-smartPhoto mv3" data-group="birdseyeview">
+  <img src="/images/portfolio/extension-store-visual-birds-eye-view-small.jpg" alt="Variações de layouts na Extension Store" class="dib" />
+</a>
 
 <div class="cf ph2-ns mv3">
   <div class="fl w-100 w-30-ns ph2 ph0-ns">
@@ -156,7 +169,8 @@
     </video>
   </div>
   <div class="fl w-100 w-100-m w-40-ns ph2">
-    <p class="f4 f3-ns measure lh-copy black-50 mt0">A troca rápida foi a solução para várias questões da solução. Não só atenderia aos princípios "Útil" e "Direta" para uma navegação super rápida entre os módulos, como também serviria para o usuário encontrar as áreas equivalentes aos módulos da versão antiga na nova—durante o período de migração. No exemplo do vídeo, ao buscar pelo antigo módulo de gerenciamento de vendas "OMS", o usuário é apresentado com o resultado do módulo de vendas na nova plataforma.</p>
+    <p class="f4 f3-ns measure lh-copy black-50 mt0">A troca rápida foi a solução para várias questões da solução. Não só atenderia aos princípios "Útil" e "Direta" para uma navegação super rápida entre os módulos, como também serviria para o usuário encontrar na nova versão as áreas equivalentes aos módulos da versão antiga—durante o período de migração.</p>
+    <p class="f4 f3-ns measure lh-copy black-50 mt0">No exemplo do vídeo, <strong>ao buscar pelo antigo módulo de gerenciamento de vendas "OMS", o usuário via com o resultado o módulo de vendas na nova versão da plataforma</strong>.</p>
   </div>
 </div>
 
@@ -166,7 +180,7 @@
     <img src="/images/portfolio/nav-old-admins.gif" alt="Navegação como sidebar nos módulos antigos" class="dib mb3 w-100" />
   </div>
   <div class="fl w-100 w-100-m w-30-ns ph2 ph2-m ph4-ns">
-    <p class="f4 f3-ns measure lh-copy black-50 mv1 center center-m mh0-ns">Como a navegação precisaria também estar presente na versão antiga dos módulos, criamos o protótipo de uma versão que seria uma <em>sidebar</em>, respondendo ao clique do usuário no ícone de menu no topo do gerenciador antigo.</p>
+    <p class="f4 f3-ns measure lh-copy black-50 mv1 center center-m mh0-ns">Como a navegação precisaria também estar presente na versão antiga dos módulos, criamos o protótipo de uma versão que seria uma <em>sidebar</em> da esquerda para a direta, respondendo ao clique do usuário no ícone de menu no topo do gerenciador antigo. No celular, a navegação apareceria em tela cheia.</p>
   </div>
 </div>
 
@@ -174,7 +188,7 @@
 
 <div class="tl tl-m tc-ns">
   <img src="/images/portfolio/nav-final.png" alt="IO Navigation" class="dib mv3" />
-  <p class="f4 f3-ns measure center lh-copy black-50 mv1 mh0 ph2 ph0-ns">Na semana de anúncio da Extension Store no evento anual de lançamentos da empresa, o VTEX Day 2017, foi possível realizar alguns testes de usabilidade de guerrilha com parceiros e membros da equipe do financeiro da VTEX. As maiores questões encontradas foram de performance e alguns bugs que seriam corrigidos rapidamente antes do lançamento do <em>public beta</em>, quando os lojistas começaram a usar e avaliar a versão de testes da solução.</p>
+  <p class="f4 f3-ns measure center lh-copy black-50 mv1 mh0 ph2 ph0-ns">Na semana de anúncio da <em>Extension Store</em> no evento anual de lançamentos da empresa, o VTEX Day 2017, foi possível realizar alguns testes de usabilidade de guerrilha com parceiros e membros da equipe do financeiro da VTEX. As maiores questões encontradas foram de performance e alguns bugs que seriam corrigidos rapidamente antes do lançamento do <em>public beta</em>, quando os lojistas começaram a usar e avaliar a versão de testes da solução.</p>
 </div>
 
 <section class="tc">
@@ -188,6 +202,12 @@
 </section>
 
 </div>
+
+<script type="text/javascript">
+  window.addEventListener('DOMContentLoaded',function(){
+      new SmartPhoto(".js-smartPhoto",{nav: false});
+  });
+</script>
 
 		</div>
 	</article>
@@ -243,6 +263,7 @@
 	</nav>
 </section>
 
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -253,7 +274,6 @@
   ga('send', 'pageview');
 
 </script>
-
 
 </body>
 </html>
