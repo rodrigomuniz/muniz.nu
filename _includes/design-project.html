@@ -1,0 +1,26 @@
+<div class="mw8 center">
+{%if project.thumbnail %}
+<article class="mt3 mb6 tc tc-m tl-ns">
+	<div class="cf">
+		<a href="{{ project.url | prepend: site.baseurl }}" class="grow dib no-underline">
+			<div class="fl fn-m w-100 w-90-m center-m w-40-ns mb2 ba br2 bw3 black-05 tc">
+				<img src="{{ project.thumbnail }}" alt="Miniatura do projeto" class="db" />
+			</div>
+			<div class="fl fn-m w-100 w-90-m center-m w-60-ns ph0 pl4-ns">
+				<strong class="tracked black-30 f5 ttu">{{ project.client }}, {{ project.project_year }}</strong>
+				<h4 class="f2 f1-ns ma0 mb2 purple">{{ project.title }}</h4>
+				<p class="black-50 f4 f3-ns mv0 lh-copy">{{ project.excerpt }}</p>
+			</div>
+		</a>
+	</div>
+</article>
+{% else %}
+<article class="mt3 mb6 w-80-ns center tc tc-m tl-ns">
+	<a href="{{ project.url | prepend: site.baseurl }}" class="grow dib no-underline">
+		<strong class="tracked black-30 f5 ttu">{{ project.client }}, {{ project.project_year }}</strong>
+		<h4 class="f2 f1-ns ma0 mb2 purple">{{ project.title }}</h4>
+		<p class="black-50 f4 f3-ns mv0 lh-copy">{{ project.excerpt }}</p>
+	</a>
+</article>
+{% endif %}
+</div>

@@ -11,40 +11,11 @@ title: Product &amp; Interaction Designer
 </header>
 
 <section class="bg-black-05 pv6 ph3 ph5-ns">
-	<h3 class="measure-narrow f3 f1-ns fw3 mv0 lh-title purple">Oi, sou um <strong class="f2 f-subheadline-ns db fw4 hot-pink">Product Designer</strong> pernambucano vivendo no Rio</h3>
+	<h3 class="measure-narrow-ns f3 f2-m f1-ns fw3 mv0 lh-title purple">Oi, sou um <strong class="f2 f1-m f-subheadline-ns db fw4 hot-pink">Product Designer</strong> pernambucano vivendo no Rio</h3>
 </section>
 
-<section class="mw8 center pv4 pv5-ns ph3 ph5-ns">
-	<h2 class="f2 f1-ns fw2 mv0 pt4 pt5-ns pb3 pb4-ns black-40 tc-ns">Projetos selecionados</h2>
-
-	{% assign ordered_projects = site.portfolio | sort:"order" %}
-	{% for project in ordered_projects %}
-	{%if project.thumbnail %}
-	<article class="mt3 mb5 tc tc-m tl-ns">
-		<div class="cf">
-			<a href="{{ project.url | prepend: site.baseurl }}" class="db link dim">
-				<div class="fl w-100 w-100-m w-40-ns pr2-ns">
-					<img src="{{ project.thumbnail }}" alt="Miniatura do projeto" class="dib w-100" />
-				</div>
-				<div class="fl w-100 w-100-m w-60-ns ph0 ph2-ns">
-					<strong class="tracked black-30 f5 ttu">{{ project.client }}, {{ project.project_year }}</strong>
-					<h4 class="f2 f1-ns ma0 mb2 purple">{{ project.title }}</h4>
-					<p class="black-50 f4 f3-ns mv0 lh-copy">{{ project.excerpt }}</p>
-				</div>
-			</a>
-		</div>
-	</article>
-	{% else %}
-	<article class="mt3 mb5 w-80-ns center tc tc-m tl-ns">
-		<a href="{{ project.url | prepend: site.baseurl }}" class="db link dim">
-			<strong class="tracked black-30 f5 ttu">{{ project.client }}, {{ project.project_year }}</strong>
-			<h4 class="f2 f1-ns ma0 mb2 purple">{{ project.title }}</h4>
-			<p class="black-50 f4 f3-ns mv0 lh-copy">{{ project.excerpt }}</p>
-		</a>
-	</article>
-	{% endif %}
-
-	{% endfor %}
-</section>
+{% include design-projects-list.html %}
 
 {% include design-footer.html %}
+{% include pre-home-menu.html %}
+{% include footer.html %}

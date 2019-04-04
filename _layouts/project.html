@@ -15,7 +15,7 @@
 		<div class="vh-50 vh-75-ns w-100 contain relative mb5" style="background:#f0f0f0 url({{ page.hero_image }}) no-repeat center;">
 			<header class="absolute bottom-0 right-0">
 				<strong class="fr tracked black-50 f4 f3-ns fw6 ttu dib bg-white pv2 ph2 ph4-m ph4-ns">{{ page.client }}, {{ page.project_year }}</strong>
-				<h1 class="f1 f-headline-ns fw6 ma0 purple lh-solid bg-white pv2 pv3-ns ph2 ph3-m ph4-ns fr cr">
+				<h1 class="f1 f-headline-ns fw6 ma0 purple lh-solid bg-white pv2 pv3-ns ph2 ph3-m ph4-ns fr cr tr">
 					{{ page.title }}
 				</h1>
 			</header>
@@ -43,6 +43,8 @@
 </section>
 {% endif %}
 
-{% include other-projects.html %}
-
+{% include design-other-projects.html %}
 {% include design-footer.html %}
+
+{% include pre-home-menu.html %}
+{% include footer.html %}
