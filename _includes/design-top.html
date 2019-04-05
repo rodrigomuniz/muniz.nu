@@ -11,8 +11,12 @@
 	<meta property="og:site_name" content="{{ page.title }}" />
 	<meta property="og:title" content="{{ page.subtitle }}" />
 	<meta property="og:description" content="{{ page.description }}" />
-	<!-- <meta property="og:image" content="{{ site.baseurl }}/images/website_thumb.png" /> -->
-	<meta property="og:url" content="http://muniz.nu" />
+	{%if page.hero_image %}
+	<meta property="og:image" content="{{ site.url }}{{ page.hero_image }}" />
+	{% else %}
+	<meta property="og:image" content="{{ site.url }}/images/website_thumb_design.jpg" />
+	{% endif %}
+	<meta property="og:url" content="{{ site.url }}" />
 
 	<link href="/style/main.css" rel="stylesheet" type="text/css" />
 </head>
