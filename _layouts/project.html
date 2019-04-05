@@ -1,8 +1,8 @@
 {% include design-top.html %}
 {% include image-zoom.html %}
 
-<header>
-	<nav class="pa3 pv4-ns ph5-ns ttl">
+<header class="mw8 mw9-ns center">
+	<nav class="pa3 pv4-ns ph3-ns ttl">
 	  <a class="link purple fw6 f6 f5-ns hover-hot-pink mr1 mr2-ns" href="/" title="Início">muniz.nu</a>
 	  <span class="link black-20    f6 f5-ns dib mr1 mr2-ns" href="#">/</span>
 	  <a class="link purple fw6 f6 f5-ns hover-hot-pink mr1 mr2-ns" href="/design">design</a>
@@ -11,39 +11,33 @@
 	</nav>
 </header>
 
-{%if page.hero_image %}
 <section>
 	<article class="pb5 pb5-ns">
-		<div class="vh-50 vh-75-ns w-100 contain relative mb5" style="background:#eae9e9 url({{ page.hero_image }}) no-repeat center;">
-			<header class="absolute bottom-0 right-0">
-				<strong class="fr tracked black-50 f4 f3-ns fw6 ttu dib bg-white pv2 ph2 ph4-m ph4-ns">{{ page.client }}, {{ page.project_year }}</strong>
-				<h1 class="f1 f-headline-ns fw6 ma0 purple lh-solid bg-white pv2 pv3-ns ph2 ph3-m ph4-ns fr cr tr">
+		{%if page.hero_image %}
+		<div class="w-100 contain mb5 cf" style="background:#eae9e9 url({{ page.hero_image }}) no-repeat center;">
+			<div class="vh-50 vh-75-ns mw8 mw9-ns center relative cf">
+			<header class="w-100 absolute bottom-0 right-0 ph2-m ph3-ns">
+				<strong class="fr tracked black-50 f4 f3-ns fw6 ttu dib bg-white-80 pv2 ph2 ph4-m ph4-ns">{{ page.client }}, {{ page.project_year }}</strong>
+				<h1 class="f1 f-headline-ns fw6 ma0 purple lh-solid bg-white-80 pv2 pv3-ns ph2 ph3-m ph4-ns cr tc w-100">
 					{{ page.title }}
 				</h1>
 			</header>
+			</div>
 		</div>
-		<div class="w-100 black-70 f4">
-		{{ content }}
-		</div>
-	</article>
-</section>
-
-{% else %}
-<section>
-	<article class="mw9 center pv4 pv5-ns">
-		<header class="ph3 ph5-ns tc">
+		{% else %}
+		<header class="ph3 ph5-ns tc mt5 mt6-ns">
 			<strong class="tracked black-30 f5 f3-ns ttu">{{ page.client }}, {{ page.project_year }}</strong>
 			<h1 class="f1 f-headline-ns ma0 purple lh-solid">
 				{{ page.title }}
 			</h1>
 		</header>
+		{% endif %}
 
-		<div class="w-100 black-70 f4">
+		<div class="mw8 mw9-ns center ph2-m ph5-ns black-70 f4">
 		{{ content }}
 		</div>
 	</article>
 </section>
-{% endif %}
 
 {% include design-other-projects.html %}
 {% include design-footer.html %}
