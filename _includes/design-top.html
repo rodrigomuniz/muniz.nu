@@ -12,11 +12,11 @@
 	<meta property="og:title" content="{{ page.subtitle }}" />
 	<meta property="og:description" content="{{ page.description }}" />
 	{%if page.hero_image %}
-	<meta property="og:image" content="{{ site.url }}{{ page.hero_image }}" />
+	<meta property="og:image" content="{{ site.githuburl }}{{ page.hero_image }}" />
 	{% else %}
-	<meta property="og:image" content="{{ site.url }}/images/website_thumb_design.jpg" />
+	<meta property="og:image" content="{{ site.githuburl }}/images/website_thumb_design.jpg" />
 	{% endif %}
-	<meta property="og:url" content="{{ site.url }}" />
+	<meta property="og:url" content="{{ site.githuburl }}" />
 
 	<link href="/style/main.css" rel="stylesheet" type="text/css" />
 </head>
