@@ -6,7 +6,7 @@ fields:
 - name: title
   type: text
   config:
-    required: true
+    required: false
   label: Title
   description: 'Ex: Pró Feminismo'
 - name: iframe-url
