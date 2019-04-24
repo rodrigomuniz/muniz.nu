@@ -11,7 +11,7 @@ fields:
 - name: iframe-url
   type: text
   config:
-    required: true
+    required: false
   label: Iframe URL
 pages:
 - _data/featured-sets.yml
