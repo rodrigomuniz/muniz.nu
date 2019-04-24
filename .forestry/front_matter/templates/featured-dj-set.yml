@@ -7,8 +7,9 @@ fields:
   config:
     required: true
   label: Label
+  default: Destaque
 - name: iframe-url
   type: text
   config:
-    required: false
+    required: true
   label: Iframe URL
