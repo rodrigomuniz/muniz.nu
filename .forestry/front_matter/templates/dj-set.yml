@@ -12,7 +12,7 @@ fields:
 - name: iframe-url
   type: text
   config:
-    required: true
+    required: false
   label: Embedded URL
   hidden: false
 pages:
