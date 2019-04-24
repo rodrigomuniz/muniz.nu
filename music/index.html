@@ -59,31 +59,15 @@ description: Pernambucano vivendo no Rio desde 2013 com o compromisso de tocar m
 </a>
 
 <section>
+	{% for set in site.data.sets %}
 	<div class="mb1">
 		<div class="ph3 ph4-m ph5-ns pv4">
-			<h2 class="f2 f1-ns fw4 lh-solid ma0 mt1 mb2 purple">Bixa Preta</h2>
-			<iframe width="100%" height="120" data-iframely-url="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Frdmuniz%2Fset-lafon-5-corpos-livres-na-rua-live%2F" frameborder="0" ></iframe>
+			<h2 class="f2 f1-ns fw2 lh-solid ma0 mt1 mb2 purple">{{ set.title }}</h2>
+			<iframe width="100%" height="120" data-iframely-url="{{ set.iframe-url }}" frameborder="0" ></iframe>
 			</div>
 	</div>
-	<div class="mb1">
-		<div class="ph3 ph5-ns pv4">
-			<h2 class="f2 f1-ns fw4 lh-solid ma0 mt1 mb2 purple">Soltinha
-			</h2>
-			<iframe width="100%" height="120" data-iframely-url="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Frdmuniz%2Fmix-soltinha-5-cunty%2F" frameborder="0" ></iframe>
-		</div>
-	</div>
-	<div class="mb1">
-		<div class="ph3 ph5-ns pv4">
-			<h2 class="f2 f1-ns fw4 lh-solid ma0 mt1 mb2 purple">Pró Feminismo</h2>
-			<iframe width="100%" height="120" data-iframely-url="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Frdmuniz%2Fmix-feminismo-e-coragem-creativemornings-rio-dj-rodrigo-muniz%2F" frameborder="0" ></iframe>
-		</div>
-	</div>
-	<div class="mb1">
-		<div class="ph3 ph5-ns pv4">
-			<h2 class="f2 f1-ns fw4 lh-solid ma0 mt1 mb2 purple">De LED</h2>
-			<iframe width="100%" height="120" data-iframely-url="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Frdmuniz%2Fset-minha-luz-%C3%A9-de-led-convida-lafon-live%2F" frameborder="0" ></iframe>
-		</div>
-	</div>
+	{% endfor %}
+
 	<a href="https://www.mixcloud.com/rdmuniz/" rel="external" target="_blank" class="w100 hover-bg-black-10 hover-black-90 purple tc pv3 db link f5 f4-ns mb1">Ouça mais mixtapes no meu Mixcloud</a>
 </section>
 
