@@ -7,7 +7,7 @@ fields:
   config:
     required: true
   label: Label
-- name: iframe_url
+- name: iframe-url
   type: text
   config:
     required: false
