@@ -5,7 +5,7 @@ fields:
 - name: label
   type: text
   config:
-    required: true
+    required: false
   label: Label
   default: Destaque
 - name: iframe-url
