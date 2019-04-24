@@ -13,3 +13,5 @@ fields:
   config:
     required: true
   label: Iframe URL
+pages:
+- _data/featured-sets.yml
