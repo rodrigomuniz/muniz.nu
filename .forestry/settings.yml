@@ -5,6 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: _data/setlists.yml
+  label: DJ Sets
+  match: "**/*"
+- type: document
   path: _data/featured-sets.yml
   label: Featured DJ Set
 - type: jekyll-pages
