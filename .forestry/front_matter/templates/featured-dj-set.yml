@@ -1,4 +1,14 @@
 ---
 label: Featured DJ Set
 hide_body: true
-fields: []
+fields:
+- name: label
+  type: text
+  config:
+    required: true
+  label: Label
+- name: iframe_url
+  type: text
+  config:
+    required: false
+  label: Iframe URL
