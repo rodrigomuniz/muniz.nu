@@ -1,4 +1,16 @@
 ---
 label: DJ Set
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: 'Ex: Pró Feminismo'
+- name: iframe-url
+  type: text
+  config:
+    required: true
+  label: Embedded URL
+  hidden: false
