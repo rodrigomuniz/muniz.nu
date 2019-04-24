@@ -28,14 +28,16 @@ description: Pernambucano vivendo no Rio desde 2013 com o compromisso de tocar m
 </head>
 <body class="home sans-serif mw8 mw9-ns center pb3 ma0">
 
+{% for f-set in site.data.featured-sets %}
 <div class="w100 ph3 pv4 ph4-m ph5-ns center bg-black-90 mb4 relative overflow-hidden">
 	<div class="mw8 mw9-ns center">
 		<div class="v-mid w-100 center">
-			<iframe width="100%" height="120" data-iframely-url="https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Frdmuniz%2Fmix-soltinha-6-queens-kings%2F" frameborder="0" ></iframe>
+			<iframe width="100%" height="120" data-iframely-url="{{ f-set.iframe-url }}" frameborder="0" ></iframe>
 		</div>
 	</div>
-	<span class="f7 tracked bg-gold black-40 pv1 mt1 fw6 br2 lh-solid v-top db dib-ns tc rotate-315 absolute mt5 bottom-2 w5" style="right: -7.3em;">DESTAQUE</span>
+	<span class="f7 tracked bg-gold black-40 pv1 mt1 fw6 br2 lh-solid v-top db dib-ns tc rotate-315 absolute mt5 bottom-2 w5 ttu" style="right: -7.3em;">{{ f-set.label }}</span>
 </div>
+{% endfor %}
 
 <header>
 	<nav class="pv3 pv4-ns ph3 ph4-m ph5-ns ttl">
