@@ -1,0 +1,7 @@
+#panel {
+    height: 0;
+}
+
+#showpanel:checked + #panel {
+    height: 420px;
+}
