@@ -5,3 +5,4 @@ bower_components
 .sass-cache
 .grunt/grunt-gh-pages/gh-pages/src/
 .DS_Store
+.jekyll-cache/
