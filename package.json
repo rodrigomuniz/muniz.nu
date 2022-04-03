@@ -5,5 +5,18 @@
     "type": "git",
     "url": "git://github.com/rodrigomuniz/muniz.nu.git"
   },
-  "dependencies": {}
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "description": "muniz.nu ========",
+  "bugs": {
+    "url": "https://github.com/rodrigomuniz/muniz.nu/issues"
+  },
+  "homepage": "https://github.com/rodrigomuniz/muniz.nu#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "author": "Rodrigo Muniz",
+  "license": "ISC"
 }
