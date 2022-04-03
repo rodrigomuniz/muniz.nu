@@ -3,8 +3,6 @@ title: Rodrigo Muniz
 #host: muniz.nu
 # baseurl: /muniz.nu
 permalink: blog/:title
-sass:
-    style: :compressed
 githuburl: https://muniz.nu
 
 collections:
