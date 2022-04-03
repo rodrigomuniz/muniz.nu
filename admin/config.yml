@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: rodrigomuniz/muniz.nu # path to private repo
+  auth_scope: repo # this is needed to fork the private repo
   branch: main # Branch to update (optional; defaults to master)
+  open_authoring: true
 
 # This line should *not* be indented
 publish_mode: editorial_workflow
