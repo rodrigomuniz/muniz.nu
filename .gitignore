@@ -6,3 +6,4 @@ bower_components
 .grunt/grunt-gh-pages/gh-pages/src/
 .DS_Store
 .jekyll-cache/
+*.log
