@@ -18,5 +18,8 @@
     "test": "tap test/*.js"
   },
   "author": "Rodrigo Muniz",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "netlify-cli": "^9.16.1"
+  }
 }
