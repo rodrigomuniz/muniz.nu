@@ -71,86 +71,86 @@ excerpt: "Colaborei com a definição da visão de produto, vocabulário, jornad
       </div>
     </div>
 
-    <a href="/images/portfolio/storefront-pr.jpg" class="js-smartPhoto mv4" data-group="ai">
-      <img src="/images/portfolio/storefront-pr-small.jpg" alt="Internal Press release" class="dib" />
-    </a>
+  <a href="/images/portfolio/storefront-pr.jpg" class="js-smartPhoto mv4" data-group="ai">
+    <img src="/images/portfolio/storefront-pr-small.jpg" alt="Internal Press release" class="dib" />
+  </a>
 
-    <h3 class="ph2 f2 f1-ns fw2 mv0 pt4 pt5-ns pb3 black-40 tc-ns">Mapeamento de jornada do usuário</h3>
-    <a href="/images/portfolio/storefront-jorney.jpg" class="js-smartPhoto mv4" data-group="ai">
-      <img src="/images/portfolio/storefront-jorney-small.jpg" alt="Jornada do usuário, do quadro branco ao UXpressia" class="dib" />
-    </a>
-    <div class="w-100 w-100-m w-50-ns center ph2 ph2-m ph4-ns">
-      <p class="f4 f3-ns measure center lh-copy black-50 mt0">O mapeamento da jornada do usuário era fundamental para planejarmos que tipo de interação e soluções entregaríamos em cada <strong>ponto de contato</strong> entre o produto e o usuário. Neste momento decidimos focar iniciamente na jornada do perfil técnico: o Desenvolvedor, já que naturalmente teria mais pontos de contato por ser o perfil de usuário avançado da ferramenta.</p>
+  <h3 class="ph2 f2 f1-ns fw2 mv0 pt4 pt5-ns pb3 black-40 tc-ns">Mapeamento de jornada do usuário</h3>
+  <a href="/images/portfolio/storefront-jorney.jpg" class="js-smartPhoto mv4" data-group="ai">
+    <img src="/images/portfolio/storefront-jorney-small.jpg" alt="Jornada do usuário, do quadro branco ao UXpressia" class="dib" />
+  </a>
+  <div class="w-100 w-100-m w-50-ns center ph2 ph2-m ph4-ns">
+    <p class="f4 f3-ns measure center lh-copy black-50 mt0">O mapeamento da jornada do usuário era fundamental para planejarmos que tipo de interação e soluções entregaríamos em cada <strong>ponto de contato</strong> entre o produto e o usuário. Neste momento decidimos focar iniciamente na jornada do perfil técnico: o Desenvolvedor, já que naturalmente teria mais pontos de contato por ser o perfil de usuário avançado da ferramenta.</p>
+  </div>
+
+  <h3 class="ph2 f2 f1-ns fw2 mv0 pt4 pt5-ns pb3 black-40 tc-ns">Protótipos</h3>
+  <div class="cf ph4-ns">
+    <div class="fl w-100 w-100-m w-70-ns">
+      <a href="/images/portfolio/storefront-papel.jpg" class="js-smartPhoto mv4" data-group="prototipo">
+        <img src="/images/portfolio/storefront-papel-small.jpg" alt="Protótipo em papel" class="dib" />
+      </a>
     </div>
-
-    <h3 class="ph2 f2 f1-ns fw2 mv0 pt4 pt5-ns pb3 black-40 tc-ns">Protótipos</h3>
-    <div class="cf ph4-ns">
-      <div class="fl w-100 w-100-m w-70-ns">
-        <a href="/images/portfolio/storefront-papel.jpg" class="js-smartPhoto mv4" data-group="prototipo">
-          <img src="/images/portfolio/storefront-papel-small.jpg" alt="Protótipo em papel" class="dib" />
-        </a>
-      </div>
-      <div class="fl w-100 w-100-m w-30-ns ph2 ph2-m ph4-ns">
-        <p class="f4 f3-ns measure center center-m mh0-ns lh-copy black-50">Com o perfil definido, partimos para o rascunho e a exploração de conceitos dos recursos que o produto ofereceria. Foram horas de quadro branco, papel, caneta e tesoura com grades, placeholdes e componentes de papel.</p>
-      </div>
+    <div class="fl w-100 w-100-m w-30-ns ph2 ph2-m ph4-ns">
+      <p class="f4 f3-ns measure center center-m mh0-ns lh-copy black-50">Com o perfil definido, partimos para o rascunho e a exploração de conceitos dos recursos que o produto ofereceria. Foram horas de quadro branco, papel, caneta e tesoura com grades, placeholdes e componentes de papel.</p>
     </div>
+  </div>
 
-    <h4 class="ph2 f2 f1-ns fw2 mv0 pt4 pt5-ns pb3 black-40 tc-ns">Loja exemplo e Styleguide</h4>
+  <h4 class="ph2 f2 f1-ns fw2 mv0 pt4 pt5-ns pb3 black-40 tc-ns">Loja exemplo e Styleguide</h4>
 
-    <div class="cf ph4-ns">
-      <div class="fl w-100 w-100-m w-50-ns">
-        <img src="/images/portfolio/storefront-pilates-devices.jpg" alt="Loja de exemplo para desenvolvedores" class="dib mb3" />
+  <div class="cf ph4-ns">
+    <div class="fl w-100 w-100-m w-50-ns">
+      <img src="/images/portfolio/storefront-pilates-devices.jpg" alt="Loja de exemplo para desenvolvedores" class="dib mb3" />
+    </div>
+    <div class="fl w-100 w-100-m w-50-ns ph2 ph2-m ph4-ns">
+      <p class="f4 f3-ns measure center center-m mh0-ns lh-copy black-50 mt0-ns">Chegamos a conclusão que a única forma de fazer a melhor ferramenta de desenvolvimento de lojas e apps para a plataforma seria colocando-se no lugar de um desenvolvedor VTEX, tendo uma loja de verdade para cuidar. Foi aí que pedimos a ajuda de um dos nossos colegas, o Afonso, que já era dono de uma loja VTEX e topou ser (digamos assim...) nossa cobaia. Desenhamos uma versão nova do layout de sua loja <strong>Pilates Lovers</strong> do zero, já usando a nova estrutura <em>IO</em> com o <em>Render</em> e <em>Storefront</em>. </p>
+    </div>
+  </div>
+  <div class="cf ph4-ns pv4-ns">
+    <div class="fl w-100 w-100-m w-50-ns ph2 ph2-m ph4-ns">
+      <p class="f4 f3-ns measure center center-m mh0-ns lh-copy black-50 mt0-ns">Refinamos tecnicamente a loja tendo em mente o trabalho de um desenvolvedor de agência parceira da plataforma (que geralmente trabalhava em equipe), adicionando o conceito de <em>Styleguide</em> para definir variáveis de temas das lojas como <strong>cores</strong> e <strong>tipografia</strong>. Isto baseado no <em>framework</em> de CSS Atômico <em>Tachyons</em>—ideal para a tecnologia <em>React</em> usada no <em>Frontend</em> e <em>Backend</em> do sistema, altamente escalável. A loja também tinha uma estrutura de <em>grid</em> responsivo e flexível para receber os mais diversos tipos de componentes para comércio eletrônico. </p>
+      <p class="f4 f3-ns measure center center-m mh0-ns lh-copy black-50">
+        Em média, a cada 3 semanas fazíamos pessoalmente alguns <em>hands on</em> com desenvolvedores convidados do ecossistema da VTEX, coletando feedbacks e encontrando pontos cegos.</p>
       </div>
       <div class="fl w-100 w-100-m w-50-ns ph2 ph2-m ph4-ns">
-        <p class="f4 f3-ns measure center center-m mh0-ns lh-copy black-50 mt0-ns">Chegamos a conclusão que a única forma de fazer a melhor ferramenta de desenvolvimento de lojas e apps para a plataforma seria colocando-se no lugar de um desenvolvedor VTEX, tendo uma loja de verdade para cuidar. Foi aí que pedimos a ajuda de um dos nossos colegas, o Afonso, que já era dono de uma loja VTEX e topou ser (digamos assim...) nossa cobaia. Desenhamos uma versão nova do layout de sua loja <strong>Pilates Lovers</strong> do zero, já usando a nova estrutura <em>IO</em> com o <em>Render</em> e <em>Storefront</em>. </p>
+        <img src="/images/portfolio/storefront-store-styleguide.jpg" alt="Tecnologias: React, node.js, GraphQL, Tachyons CSS" class="dib mb3" />
       </div>
     </div>
-    <div class="cf ph4-ns pv4-ns">
-      <div class="fl w-100 w-100-m w-50-ns ph2 ph2-m ph4-ns">
-        <p class="f4 f3-ns measure center center-m mh0-ns lh-copy black-50 mt0-ns">Refinamos tecnicamente a loja tendo em mente o trabalho de um desenvolvedor de agência parceira da plataforma (que geralmente trabalhava em equipe), adicionando o conceito de <em>Styleguide</em> para definir variáveis de temas das lojas como <strong>cores</strong> e <strong>tipografia</strong>. Isto baseado no <em>framework</em> de CSS Atômico <em>Tachyons</em>—ideal para a tecnologia <em>React</em> usada no <em>Frontend</em> e <em>Backend</em> do sistema, altamente escalável. A loja também tinha uma estrutura de <em>grid</em> responsivo e flexível para receber os mais diversos tipos de componentes para comércio eletrônico. </p>
-        <p class="f4 f3-ns measure center center-m mh0-ns lh-copy black-50">
-          Em média, a cada 3 semanas fazíamos pessoalmente alguns <em>hands on</em> com desenvolvedores convidados do ecossistema da VTEX, coletando feedbacks e encontrando pontos cegos.</p>
-        </div>
-        <div class="fl w-100 w-100-m w-50-ns ph2 ph2-m ph4-ns">
-          <img src="/images/portfolio/storefront-store-styleguide.jpg" alt="Tecnologias: React, node.js, GraphQL, Tachyons CSS" class="dib mb3" />
-        </div>
-      </div>
 
-      <h4 class="ph2 f2 f1-ns fw2 mv0 pt4 pt5-ns pb3 black-40 tc-ns">Placeholder e Componentes</h4>
-      <img src="/images/portfolio/storefront-iso.jpg" alt="Placeholders e componentes na grade da loja" class="dib mv1" />
+  <h4 class="ph2 f2 f1-ns fw2 mv0 pt4 pt5-ns pb3 black-40 tc-ns">Placeholder e Componentes</h4>
+  <img src="/images/portfolio/storefront-iso.jpg" alt="Placeholders e componentes na grade da loja" class="dib mv1" />
 
-      <div class="w-100 w-100-m w-50-ns center ph2 ph2-m ph4-ns">
-        <p class="f4 f3-ns measure center lh-copy black-50 mt3">O próximo grande passo era explorar o que foram considerados os dois conceitos básicos do sistema: <em class="b">Placeholder</em> e <em class="b">Components</em>. O primeiro era uma área da loja definida pelo desenvolvedor para que gerentes manipulassem suas configurações ou adicionassem componentes diversos como banners, prateleiras e menus. Isto que daria a possibilidade dos desenvolvedores criarem e oferecerem <em>apps</em> com componentes customizáveis para todos os clientes da plataforma, por meio da <a href="../vtex-io/" class="link hot-pink hover-black underline-hover">Extension Store</a>.</p>
-      </div>
-      <img src="/images/portfolio/storefront-store-placeholder.jpg" alt="Esquema gráfico de placeholder e componentes da loja Pilates Lovers" class="dib mv1" />
+  <div class="w-100 w-100-m w-50-ns center ph2 ph2-m ph4-ns">
+    <p class="f4 f3-ns measure center lh-copy black-50 mt3">O próximo grande passo era explorar o que foram considerados os dois conceitos básicos do sistema: <em class="b">Placeholder</em> e <em class="b">Components</em>. O primeiro era uma área da loja definida pelo desenvolvedor para que gerentes manipulassem suas configurações ou adicionassem componentes diversos como banners, prateleiras e menus. Isto que daria a possibilidade dos desenvolvedores criarem e oferecerem <em>apps</em> com componentes customizáveis para todos os clientes da plataforma, por meio da <a href="../vtex-io/" class="link hot-pink hover-black underline-hover">Extension Store</a>.</p>
+  </div>
+  <img src="/images/portfolio/storefront-store-placeholder.jpg" alt="Esquema gráfico de placeholder e componentes da loja Pilates Lovers" class="dib mv1" />
 
-      <h4 class="ph2 f2 f1-ns fw2 mv0 pt4 pt5-ns pb3 black-40 tc-ns">Render em ação</h4>
+  <h4 class="ph2 f2 f1-ns fw2 mv0 pt4 pt5-ns pb3 black-40 tc-ns">Render em ação</h4>
 
-      <div class="w-100 center ph2-ns">
-        <video controls width="100%" class="db mb3">
-          <source src="/images/portfolio/storefront-render.mp4"
-          type="video/mp4">
-        </video>
-      </div>
+  <div class="w-100 center ph2-ns">
+    <video controls width="100%" class="db mb3">
+      <source src="/images/portfolio/storefront-render.mp4"
+      type="video/mp4">
+    </video>
+  </div>
 
-      <h4 class="ph2 f2 f1-ns fw2 mv0 pt4 pt5-ns pb3 black-40 tc-ns">Próximos passos</h4>
+  <h4 class="ph2 f2 f1-ns fw2 mv0 pt4 pt5-ns pb3 black-40 tc-ns">Próximos passos</h4>
 
-      <p class="f4 f3-ns measure center ph2 ph2-m ph4-ns lh-copy black-50 mt0">Pela proximidade do evento anual de lançamentos da VTEX para parceiros na época, o projeto foi pausado para a equipe conseguir focar energias na criação da <a href="../vtex-io/" class="link hot-pink hover-black underline-hover">nova interface gráfica do IO e Extension Store</a>, projeto do qual também participei como designer. Os próximos passos seriam:</p>
-      <ul class="list measure lh-copy f4 f3-ns center ph2 ph2-m ph6-ns mt0 black-40">
-        <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">Conceito e interface gráfica do editor de configurações de componentes</li>
-        <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">Integração da UI com a Extension/App Store</li>
-        <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">Versionamento e Rascunhos de configurações</li>
-        <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">Teste A/B</li>
-      </ul>
+  <p class="f4 f3-ns measure center ph2 ph2-m ph4-ns lh-copy black-50 mt0">Pela proximidade do evento anual de lançamentos da VTEX para parceiros na época, o projeto foi pausado para a equipe conseguir focar energias na criação da <a href="../vtex-io/" class="link hot-pink hover-black underline-hover">nova interface gráfica do IO e Extension Store</a>, projeto do qual também participei como designer. Os próximos passos seriam:</p>
+  <ul class="list measure lh-copy f4 f3-ns center ph2 ph2-m ph6-ns mt0 black-40">
+    <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">Conceito e interface gráfica do editor de configurações de componentes</li>
+    <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">Integração da UI com a Extension/App Store</li>
+    <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">Versionamento e Rascunhos de configurações</li>
+    <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">Teste A/B</li>
+  </ul>
 
-      <section class="tc">
-        <h3 class="f3 f2-ns fw2 mv0 pt4 pt5-ns pb1 black-40">Créditos e Time</h3>
-        <ul class="lh-copy black-50 f4 list pa0">
-          <li><strong>Anderson M.</strong>, Backend Developer</li>
-          <li><strong>Bruno A.</strong>, Backend Developer</li>
-          <li><strong>Guilherme R.</strong>, Frontend Developer</li>
-          <li><strong>Thor A.</strong>, Frontend Developer</li>
-        </ul>
-      </section>
+  <section class="tc">
+    <h3 class="f3 f2-ns fw2 mv0 pt4 pt5-ns pb1 black-40">Créditos e Time</h3>
+    <ul class="lh-copy black-50 f4 list pa0">
+      <li><strong>Anderson M.</strong>, Backend Developer</li>
+      <li><strong>Bruno A.</strong>, Backend Developer</li>
+      <li><strong>Guilherme R.</strong>, Frontend Developer</li>
+      <li><strong>Thor A.</strong>, Frontend Developer</li>
+    </ul>
+  </section>
 
-      {% include footer-js-smartPhoto.html %}
+  {% include footer-js-smartPhoto.html %}
