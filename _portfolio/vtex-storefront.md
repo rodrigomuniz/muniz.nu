@@ -1,13 +1,16 @@
 ---
 layout: project
-order: 2
-client: "VTEX"
-title: "Storefront e Render"
-project_year: 2017
-roles: Arquitetura da Informação, Product Discovery, Design de Interação, UI Design
+client: VTEX
+title: Storefront e Render
+date: 2023-03-22T13:35:19.497Z
 hero_image: /images/portfolio/storefront.jpg
 thumbnail: /images/portfolio/storefront.jpg
-excerpt: "Colaborei com a definição da visão de produto, vocabulário, jornada de usuário e <em>developer experience</em> da ferramenta para criação, desenvolvimento e testes de lojas da plataforma de e-commerce"
+roles: Arquitetura da Informação, Product Discovery, Design de Interação, UI Design
+excerpt: Colaborei com a definição da visão de produto, vocabulário, jornada de
+  usuário e <em>developer experience</em> da ferramenta para criação,
+  desenvolvimento e testes de lojas da plataforma de e-commerce
+project_year: 2017
+order: 2
 ---
 
 <p class="ph2 f3 f2-ns lh-copy measure center tl tl-m tc-ns">O <em>Storefront</em> foi planejado para ser uma interface gráfica para lojistas, gerentes de e-commerce, gerentes de marketing e designers adicionarem novos recursos, modificarem a estrutura e personalizarem a aparência de suas lojas sem necessariamente terem que lidar com códigos e detalhes técnicos. Eles ainda poderiam tirar proveito visualmente de um paradigma novo da plataforma, onde lojas rodariam extensões/<em>apps</em> criadas pelo ecossistema de parceiros da VTEX. Era necessário projetar tanto a experiência de uso para o perfil de gerente quanto para o perfil mais técnico de desenvolvedor—este que foi o foco inicial da criação do produto, pois também tiraria proveito da ferramenta de código por trás do <em>Storefront</em>: o <em>Render</em>.</p>
@@ -30,7 +33,6 @@ excerpt: "Colaborei com a definição da visão de produto, vocabulário, jornad
   <div class="cf ph2-ns">
     <div class="fl w-100 w-100-m w-60-ns ph2 ph0-ns">
       <p class="black-50 measure center center-m mh0-ns lh-copy mt3">As maiores necessidades do projeto eram:</p>
-
       <ul class="black-50 measure center center-m mh0-ns lh-copy ma0 mt4 mt4-m mt3-ns">
         <li>Definir o problema de forma sólida e clara antes de pensar na solução</li>
         <li>Alinhar o discurso e vocabulário de termos técnicos</li>
