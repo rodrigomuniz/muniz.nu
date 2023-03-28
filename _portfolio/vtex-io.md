@@ -126,7 +126,7 @@ excerpt: "Ajudei a conduzir o processo de redesign completo e simplificação da
 
 <div class="cf ph2-ns">
   <div class="fl w-100 w-100-m w-60-ns ph2-ns">
-    <video controls width="100%" class="db mb3">
+    <video controls loop width="100%" class="db mb3">
       <source src="/images/portfolio/nav-quick-search.webm"
               type="video/webm">
       <source src="/images/portfolio/nav-quick-search.mp4"
