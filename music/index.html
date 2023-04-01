@@ -3,32 +3,9 @@ title: CRIMENOIZE
 subtitle: Black Music, Afro Brasileira, Baile Funk, Baile Charme
 description: DJ de Pernambuco entre São Paulo e Rio com o compromisso de
   tocar mais do que se quer, o que precisa ser ouvido.
-
+keywords: dj, black music, r&b, hip hop, rap, afrobeat, dancehall, manguebeat, funk, soul, latina
 ---
-<html lang="en">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="dj, black music, r&b, hip hop, rap, afrobeat, dancehall, manguebeat, funk, soul, latina">
-<meta name="author" content="Rodrigo Muniz">
-
-<head>
-	<title>{{ page.subtitle }} - {{ page.title }}</title>
-
-	<meta property="og:type" content="website" />
-	<meta property="og:site_name" content="{{ page.title }}" />
-	<meta property="og:title" content="{{ page.subtitle }}" />
-	<meta property="og:description" content="{{ page.description }}" />
-	{%if page.hero_image %}
-	<meta property="og:image" content="{{ site.githuburl }}{{ page.hero_image }}" />
-	{% else %}
-	<meta property="og:image" content="{{ site.githuburl }}/images/website_thumb_design.jpg" />
-	{% endif %}
-	<meta property="og:url" content="{{ site.githuburl }}" />
-	<meta property="og:url" content="{{ site.githuburl }}" />
-
-	<link href="/style/main.css" rel="stylesheet" type="text/css" />
-</head>
-<body class="home sans-serif mw8 mw9-ns center pb3 ma0">
+{% include top.html %}
 
 {% for f-set in site.data.featured-sets %}
 <div class="w100 ph3 pv4 ph4-m ph5-ns center bg-black-90 mb4 relative overflow-hidden">
