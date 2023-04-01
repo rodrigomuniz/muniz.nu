@@ -5,5 +5,8 @@ muniz.nu
 
 ## Requirements
 - npm
+- bundle
 - jekyll
 - netlify CMS
+
+[i18n implementation](https://sylvaindurand.org/making-jekyll-multilingual/)
