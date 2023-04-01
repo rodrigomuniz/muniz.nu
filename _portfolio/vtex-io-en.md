@@ -8,7 +8,7 @@ roles: Arquitetura da Informação, Product Design, Design de Interação, UI De
 hero_image: /images/portfolio/io-navigation.png
 thumbnail: /images/portfolio/nav-final.png
 excerpt: "Ajudei a conduzir o processo de redesign completo e simplificação da navegação dos módulos da plataforma de e-commerce, que ganhou uma nova versão chamada VTEX IO"
-lang: pt-br
+lang: en
 ref: vtex-io
 ---
 

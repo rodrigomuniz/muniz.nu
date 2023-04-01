@@ -1,0 +1,49 @@
+---
+title: CRIMENOIZE
+subtitle: Black Music, Afro Brasileira, Baile Funk, Baile Charme
+description: "DJ from Pernambuco between São Paulo and Rio with the commitment to play more of what you want, what needs to be heard. And I'm also:"
+keywords: dj, black music, r&b, hip hop, rap, afrobeat, dancehall, manguebeat, funk, soul, latina
+lang: en
+ref: music
+---
+{% include top.html %}
+
+<div class="black-50 vh-75-ns dt ph3 ph4-m ph5-ns pv4">
+	<div class="dtc v-mid">
+		<h1 class="f2 f1-m f-subheadline-ns fw2 ma0 mb3 lh-solid tracked-tight black-40">Iaí, I'm <br /><strong class="hot-pink ttu fw6">{{ page.title }}</strong></h1>
+		<p class="f3 f1-m f1-ns fw3 lh-title-ns mw7">I'm also <strong class="purple ttu fw6" id="carousel"></strong><noscript><strong>Black Music</strong></noscript></p>
+		<p class="f3 f2-m f2-ns fw3 lh-title-ns mw7">{{ page.description }}</p>
+	</div>
+</div>
+
+<section>
+	{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+	{% for set in site.data.sets[page.lang] %}
+	<div class="mb1">
+		<div class="ph3 ph4-m ph5-ns pv4">
+			<h2 class="f2 f1-ns fw2 lh-solid ma0 mt1 mb2 purple">{{ set.title }}</h2>
+			<iframe width="100%" height="120" data-iframely-url="{{ set.iframe-url }}" frameborder="0" ></iframe>
+			</div>
+	</div>
+	{% endfor %}
+
+	<a href="https://www.mixcloud.com/crimenoize/" rel="external" target="_blank" class="w100 hover-bg-black-10 hover-hot-pink purple tc pv3 db link f4 f3-ns mb1">Listen to more mixes and DJ sets on my Mixcloud</a>
+</section>
+
+<section class="ph3 ph5-ns pv4 pv6-ns black-50 tc bb b--black-10">
+	<p class="f2 f1-m f1-ns fw3 lh-title-ns measure-narrow center">I'm also a resident DJ at <a class="link purple hover-hot-pink fw6" href="https://www.instagram.com/lafonparty/" rel="external" target="_blank">LAFON</a>, no  <a class="link pink hover-hot-pink fw6" href="https://www.instagram.com/riodejaneiro_cm/" rel="external" target="_blank">CreativeMornings Rio</a> and love to create <a class="link green hover-hot-pink fw4" href="https://open.spotify.com/user/rdmuniz" rel="external" target="_blank"> Spotify playlists</a>.</p>
+</section>
+
+<blockquote class="ph0 pv3 f2 f1-ns mw6 center tc">
+  <p class="black-50 fw2 lh-copy lh-title-ns">❝ Black music <br />I'm your instrument <br />I came to serve you ❞
+		<cite class="f4 black-40 ttu tracked db mt4">―Xênia França</cite>
+  </p>
+</blockquote>
+
+
+<script type="text/javascript" src="/scripts/replace.js"></script>
+<script async src="//cdn.iframe.ly/embed.js?lazy=1&iframe=1" charset="utf-8"></script>
+<script src="/scripts/main.js"></script>
+
+{% include pre-home-menu.html %}
+{% include footer.html %}

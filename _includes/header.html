@@ -1,18 +1,31 @@
+{% comment %} ## home and music index need header with no classname {% endcomment %}
+{% if page.url == '/' or page.url == '/en' %}
+<header class="bg-black-05 bb black-05 relative">
+{% elsif page.url == '/music/' or  page.url == '/music/en' %}
+<header class="relative">
+{% else %}
+<header class="mw8 mw9-ns center relative">
+{% endif %}
+
+{% if page.url == '/' or page.url == '/en' %}
+	<nav class="mw8 mw9-ns center pv3 pv4-ns ph3 ph3-m ph5-ns">
+		<span class="silver f5 fw4 mr2">muniz.nu</span>
+        <span class="light-silver f5 fw4 mr2">/</span>
+        <p class="dn">Escolha uma opção:</p>
+	</nav>
+{% endif %}
+
 {% comment %} ## portfolio homepage header {% endcomment %}
-{% if page.url == '/design/' %}
-<header class="mw8 mw9-ns center">
+{% if page.url == '/design/' or page.url == '/design/en' %}
 	<nav class="pv3 pv4-ns ph3 ph3-m ph5-ns ttl">
 		<a class="link purple fw6 f6 f5-ns hover-hot-pink mr2" href="/" title="Início">muniz.nu</a>
 		<span class="link gray    f6 f5-ns dib mr2" href="#">/</span>
 		<span class="link gray    f6 f5-ns dib mr2" href="#">design</span>
 	</nav>
-</header>
 {% endif %}
 
 {% comment %} ## project header {% endcomment %}
-
 {% if page.layout == 'project' %}
-<header class="mw8 mw9-ns center">
 	<nav class="pv3 pv4-ns ph3 ph3-m ph5-ns ttl">
 	  <a class="link purple fw6 f6 f5-ns hover-hot-pink mr1 mr2-ns" href="/" title="Início">muniz.nu</a>
 	  <span class="link black-20    f6 f5-ns dib mr1 mr2-ns" href="#">/</span>
@@ -20,16 +33,16 @@
 		<span class="link black-20    f6 f5-ns dib mr1 mr2-ns" href="#">/</span>
 	  <span class="link black-30    f6 f5-ns dib mr1 mr2-ns" href="#"><strong>projeto:</strong> {{ page.title }}</span>
 	</nav>
-</header>
 {% endif %}
 
 {% comment %} ## music header {% endcomment %}
-<header>
-{% if page.url == '/music/' %}
+{% if page.url == '/music/' or page.url == '/music/en' %}
 	<nav class="pv3 pv4-ns ph3 ph4-m ph5-ns ttl">
 		<a class="link purple fw6 f6 f5-ns hover-hot-pink mr2" href="/" title="Início">muniz.nu</a>
 		<span class="link gray    f6 f5-ns dib mr2" href="#">/</span>
 		<span class="link gray    f6 f5-ns dib mr2" href="#">música</span>
 	</nav>
 {% endif %}
+
+{% include i18n-selector.html %}
 </header>

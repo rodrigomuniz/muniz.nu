@@ -1,4 +1,4 @@
-<html lang="pt-br">
+<html lang="{{ page.lang }}">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="{{ page.keywords }}">
@@ -30,24 +30,18 @@
 	{% if page.url == '/' %}
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 	{% endif %}
+	<!-- <script>
+		alert("{{ page.layout }}")
+	</script> -->
 </head>
-{% if page.url == '/music/' %}
+{% if page.url == '/music/' or page.url == '/music/en' %}
 <body class="home sans-serif mw8 mw9-ns center pb3 ma0">
 {% else %}
 <body class="home sans-serif ma0 near-white">
 {% endif %}
 
-{% if page.url == '/music/' %}
-	{% for f-set in site.data.featured-sets %}
-	<div class="w100 ph3 pv4 ph4-m ph5-ns center bg-black-90 mb4 relative overflow-hidden">
-		<div class="mw8 mw9-ns center">
-			<div class="v-mid w-100 center">
-				<iframe width="100%" height="120" data-iframely-url="{{ f-set.iframe-url }}" frameborder="0" ></iframe>
-			</div>
-		</div>
-		<span class="f7 tracked hot-pink bg-white pv1 mt1 b br2 lh-solid v-top db dib-ns tc rotate-315 absolute mt5 bottom-2 w5 ttu" style="right: -7.3em;">{{ f-set.label }}</span>
-	</div>
-	{% endfor %}
+{% if page.url == '/music/' or page.url == '/music/en' %}
+{% include music-featured-dj-set.html %}
 {% endif %}
 
 {% include header.html %}

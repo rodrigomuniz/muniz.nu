@@ -11,7 +11,7 @@ excerpt: Colaborei com a definição da visão de produto, vocabulário, jornada
   desenvolvimento e testes de lojas da plataforma de e-commerce
 project_year: 2017
 order: 2
-lang: pt-br
+lang: en
 ref: vtex-storefront
 ---
 

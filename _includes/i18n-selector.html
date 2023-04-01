@@ -1,0 +1,19 @@
+<ul class="absolute top-0 right-1">
+    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+    {% for post in posts %}
+      <li class="dib mh1">
+        <a href="{{ post.url }}" class="{{ post.lang }} link purple fw6 f6 f5-ns hover-hot-pink">
+          {{ post.lang }}
+        </a>
+      </li>
+    {% endfor %}
+
+    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+    {% for page in pages %}
+      <li class="dib mh1">
+        <a href="{{ page.url }}" class="{{ page.lang }} link purple fw6 f6 f5-ns hover-hot-pink">
+          {{ page.lang }}
+        </a>
+      </li>
+    {% endfor %}
+</ul>
