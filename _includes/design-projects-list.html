@@ -3,6 +3,7 @@
 		Projetos Selecionados
 	</h2>
 	{% assign ordered_projects = site.portfolio | where:"lang", page.lang | sort:"order" %}
+
 	{% for project in ordered_projects %}
 		{% include design-project.html %}
 	{% endfor %}

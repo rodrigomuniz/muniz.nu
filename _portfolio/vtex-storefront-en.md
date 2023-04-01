@@ -1,14 +1,12 @@
 ---
 layout: project
 client: VTEX
-title: Storefront e Render
+title: Storefront & Render
 date: 2023-03-22T13:35:19.497Z
 hero_image: /images/portfolio/storefront.jpg
 thumbnail: /images/portfolio/storefront.jpg
-roles: Arquitetura da Informação, Product Discovery, Design de Interação, UI Design
-excerpt: Colaborei com a definição da visão de produto, vocabulário, jornada de
-  usuário e <em>developer experience</em> da ferramenta para criação,
-  desenvolvimento e testes de lojas da plataforma de e-commerce
+roles: Information Architecture, Product Discovery, Interaction Design, UI Design
+excerpt: I collaborated with the definition of the product vision, vocabulary, user journey and developer experience of the tool for creating, developing and testing stores on the new version of the e-commerce platform
 project_year: 2017
 order: 2
 lang: en

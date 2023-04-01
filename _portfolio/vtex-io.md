@@ -2,7 +2,7 @@
 layout: project
 order: 1
 client: "VTEX"
-title: "IO Navigation"
+title: "VTEX IO Navigation"
 project_year: 2017
 roles: Arquitetura da Informação, Product Design, Design de Interação, UI Design
 hero_image: /images/portfolio/io-navigation.png

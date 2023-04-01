@@ -8,7 +8,7 @@ thumbnail: /images/portfolio/storefront.jpg
 roles: Arquitetura da Informação, Product Discovery, Design de Interação, UI Design
 excerpt: Colaborei com a definição da visão de produto, vocabulário, jornada de
   usuário e <em>developer experience</em> da ferramenta para criação,
-  desenvolvimento e testes de lojas da plataforma de e-commerce
+  desenvolvimento e testes de lojas da nova versão da plataforma de e-commerce
 project_year: 2017
 order: 2
 lang: pt-br

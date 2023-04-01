@@ -2,12 +2,12 @@
 layout: project
 order: 1
 client: "VTEX"
-title: "IO Navigation"
+title: "VTEX IO Navigation"
 project_year: 2017
-roles: Arquitetura da Informação, Product Design, Design de Interação, UI Design
+roles: Information Architecture, Product Design, Interaction Design, UI Design
 hero_image: /images/portfolio/io-navigation.png
 thumbnail: /images/portfolio/nav-final.png
-excerpt: "Ajudei a conduzir o processo de redesign completo e simplificação da navegação dos módulos da plataforma de e-commerce, que ganhou uma nova versão chamada VTEX IO"
+excerpt: "I helped conduct the complete redesign process and simplified navigation of the e-commerce platform modules, which gained a new version called VTEX IO"
 lang: en
 ref: vtex-io
 ---

@@ -1,6 +1,6 @@
 {% include top.html %}
 {% include image-zoom-js-plugin.html %}
-
+{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
 <section>
 	<article class="pb5 pb5-ns">
 		{%if page.hero_image %}
@@ -25,7 +25,13 @@
 
 		<div class="mw8 mw9-ns center ph2-m ph5-ns black-70 f4">
 		<dl class="ma0 ph2 tc f4">
-			<dt class="ttu fw3 f3 black-30">Responsabilidades</dt>
+			<dt class="ttu fw3 f3 black-30">
+				{% if page.lang == "en" %}
+				Responsibilities
+				{% else %}
+				Responsabilidades
+				{% endif %}
+			</dt>
 			<dd class="ma0 black-40">{{page.roles}}</dd>
 		</dl>
 		{{ content }}
@@ -34,7 +40,11 @@
 </section>
 
 {% include design-other-projects.html %}
+{% if page.lang == "en" %}
+{% include design-footer-en.html %}
+{% else %}
 {% include design-footer.html %}
+{% endif %}
 
 {% include pre-home-menu.html %}
 {% include footer.html %}

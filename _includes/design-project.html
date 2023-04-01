@@ -1,4 +1,5 @@
 <div class="mw8 center">
+{% if project.lang == page.lang %}
 {%if project.thumbnail %}
 <article class="mt3 mb6 tc tc-m tl-ns">
 	<div class="cf">
@@ -24,3 +25,4 @@
 </article>
 {% endif %}
 </div>
+{% endif %}

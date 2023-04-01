@@ -16,4 +16,13 @@
         </a>
       </li>
     {% endfor %}
+
+    {% assign projects = site.portfolio | where:"ref", page.ref | sort: 'lang' %}
+    {% for project in projects %}
+      <li class="dib mh1">
+        <a href="{{ project.url }}" class="{{ project.lang }} link purple fw6 f6 f5-ns hover-hot-pink">
+          {{ project.lang }}
+        </a>
+      </li>
+    {% endfor %}
 </ul>

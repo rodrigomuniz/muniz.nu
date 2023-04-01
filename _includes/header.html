@@ -1,4 +1,5 @@
 {% comment %} ## home and music index need header with no classname {% endcomment %}
+{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 {% if page.url == '/' or page.url == '/en' %}
 <header class="bg-black-05 bb black-05 relative">
 {% elsif page.url == '/music/' or  page.url == '/music/en' %}
@@ -29,9 +30,14 @@
 	<nav class="pv3 pv4-ns ph3 ph3-m ph5-ns ttl">
 	  <a class="link purple fw6 f6 f5-ns hover-hot-pink mr1 mr2-ns" href="/" title="Início">muniz.nu</a>
 	  <span class="link black-20    f6 f5-ns dib mr1 mr2-ns" href="#">/</span>
+	  {% if page.lang == "en" %}
+	  <a class="link purple fw6 f6 f5-ns hover-hot-pink mr1 mr2-ns" href="/design/en">design</a>
+	  {% else %}
 	  <a class="link purple fw6 f6 f5-ns hover-hot-pink mr1 mr2-ns" href="/design">design</a>
+	  {% endif %}
+
 		<span class="link black-20    f6 f5-ns dib mr1 mr2-ns" href="#">/</span>
-	  <span class="link black-30    f6 f5-ns dib mr1 mr2-ns" href="#"><strong>projeto:</strong> {{ page.title }}</span>
+	  <span class="link black-30    f6 f5-ns dib mr1 mr2-ns" href="#">{{ page.title }}</span>
 	</nav>
 {% endif %}
 
