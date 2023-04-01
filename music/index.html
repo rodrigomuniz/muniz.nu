@@ -7,25 +7,6 @@ keywords: dj, black music, r&b, hip hop, rap, afrobeat, dancehall, manguebeat, f
 ---
 {% include top.html %}
 
-{% for f-set in site.data.featured-sets %}
-<div class="w100 ph3 pv4 ph4-m ph5-ns center bg-black-90 mb4 relative overflow-hidden">
-	<div class="mw8 mw9-ns center">
-		<div class="v-mid w-100 center">
-			<iframe width="100%" height="120" data-iframely-url="{{ f-set.iframe-url }}" frameborder="0" ></iframe>
-		</div>
-	</div>
-	<span class="f7 tracked hot-pink bg-white pv1 mt1 b br2 lh-solid v-top db dib-ns tc rotate-315 absolute mt5 bottom-2 w5 ttu" style="right: -7.3em;">{{ f-set.label }}</span>
-</div>
-{% endfor %}
-
-<header>
-	<nav class="pv3 pv4-ns ph3 ph4-m ph5-ns ttl">
-		<a class="link purple fw6 f6 f5-ns hover-hot-pink mr2" href="/" title="Início">muniz.nu</a>
-		<span class="link gray    f6 f5-ns dib mr2" href="#">/</span>
-		<span class="link gray    f6 f5-ns dib mr2" href="#">música</span>
-	</nav>
-</header>
-
 <div class="black-50 vh-75-ns dt ph3 ph4-m ph5-ns pv4">
 	<div class="dtc v-mid">
 		<h1 class="f2 f1-m f-subheadline-ns fw2 ma0 mb3 lh-solid tracked-tight black-40">Oi, sou <br /><strong class="hot-pink ttu fw6">{{ page.title }}</strong></h1>
