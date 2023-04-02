@@ -144,7 +144,7 @@ ref: vtex-storefront
     <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">Conceito e interface gráfica do editor de configurações de componentes</li>
     <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">Integração da UI com a Extension/App Store</li>
     <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">Versionamento e Rascunhos de configurações</li>
-    <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">Teste A/B</li>
+    <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">Suporte nativo a Teste A/B</li>
   </ul>
 
   <section class="tc">

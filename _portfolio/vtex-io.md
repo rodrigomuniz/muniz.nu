@@ -37,7 +37,7 @@ ref: vtex-io
   <div class="fl w-100 w-100-m w-60-ns ph2 ph0-ns">
     <p class="black-50 measure center center-m mh0-ns lh-copy mt3">Além de substituir a antiga, esta nova navegação precisava também:</p>
     <ul class="black-50 measure center center-m mh0-ns lh-copy ma0">
-      <li>Ser <em>cross-device</em> <em>mobile-first</em></li>
+      <li>Ser <em>cross-device</em> e <em>mobile-first</em></li>
       <li>Servir como uma das bases visuais para o novo <em>Design System</em> da nova identidade visual da empresa</li>
       <li>Possuir uma arquitetura de organização e agrupamento de links que atendesse aos novos e antigos módulos, para a fase de migração das versões da plataforma</li>
       <li>Ter flexibilidade para receber links de apps criadas por terceiros, parceiros que futuramente iriam ter a possibilidade de inserir novos módulos no gerenciador das lojas de seus clientes</li>
@@ -63,8 +63,7 @@ ref: vtex-io
   </div>
   <div class="fl w-100 w-100-m w-50-ns ph2 ph2-m ph0-ns">
     <p class="f4 f3-ns lh-copy black-50 measure center mt0">Iniciamente ao discutir a solução, chegamos rapidamente à conclusão que a organização e agrupamentos das informações seriam os maiores desafios do projeto.</p>
-
-    <p class="measure center mh0-ns lh-copy black-50 mt0">
+    <p class="measure center center-m mh0-ns lh-copy black-50 mt0">
       Baseado no trabalho incrível de levantamento de todos os links da plataforma feito algumas semanas antes pelo Bernardo Lemgruber, iniciei uma aferição e facilitei alguns workshops rápidos com membros da equipe de suporte técnico. O objetivo era chegarmos numa lógica de agrupamento das informações que fosse facilmente entendida. Foi nesta etapa que decidimos levar em consideração <strong>não mais apenas o contexto VTEX mas o contexto geral de e-commerce</strong>, trocando o uso do nome dos módulos como OMS e PCI Gateway  por um vocabulário mais comum como <strong>Vendas, Pagamentos e Preços</strong>.
     </p>
   </div>
@@ -136,8 +135,8 @@ ref: vtex-io
     </video>
   </div>
   <div class="fl w-100 w-100-m w-40-ns ph2">
-    <p class="f4 f3-ns measure lh-copy black-50 mt0">A troca rápida foi a solução para várias questões da solução. Não só atenderia aos princípios "Útil" e "Direta" para uma navegação super rápida entre os módulos, como também serviria para o usuário encontrar na nova versão as áreas equivalentes aos módulos da versão antiga—durante o período de migração.</p>
-    <p class="f4 f3-ns measure lh-copy black-50 mt0">No exemplo do vídeo, <strong>ao buscar pelo antigo módulo de gerenciamento de vendas "OMS", o usuário via com o resultado o módulo de vendas na nova versão da plataforma</strong>.</p>
+    <p class="f4 f3-ns center-m measure lh-copy black-50 mt0">A troca rápida foi a solução para várias questões da solução. Não só atenderia aos princípios "Útil" e "Direta" para uma navegação super rápida entre os módulos, como também serviria para o usuário encontrar na nova versão as áreas equivalentes aos módulos da versão antiga—durante o período de migração.</p>
+    <p class="f4 f3-ns center-m measure lh-copy black-50 mt0">No exemplo do vídeo, <strong>ao buscar pelo antigo módulo de gerenciamento de vendas "OMS", o usuário via com o resultado o módulo de vendas na nova versão da plataforma</strong>.</p>
   </div>
 </div>
 
