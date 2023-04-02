@@ -8,9 +8,11 @@ thumbnail: /images/portfolio/storefront.jpg
 roles: Arquitetura da Informação, Product Discovery, Design de Interação, UI Design
 excerpt: Colaborei com a definição da visão de produto, vocabulário, jornada de
   usuário e <em>developer experience</em> da ferramenta para criação,
-  desenvolvimento e testes de lojas da plataforma de e-commerce
+  desenvolvimento e testes de lojas da nova versão da plataforma de e-commerce
 project_year: 2017
 order: 2
+lang: pt-br
+ref: vtex-storefront
 ---
 
 <p class="ph2 f3 f2-ns lh-copy measure center tl tl-m tc-ns">O <em>Storefront</em> foi planejado para ser uma interface gráfica para lojistas, gerentes de e-commerce, gerentes de marketing e designers adicionarem novos recursos, modificarem a estrutura e personalizarem a aparência de suas lojas sem necessariamente terem que lidar com códigos e detalhes técnicos. Eles ainda poderiam tirar proveito visualmente de um paradigma novo da plataforma, onde lojas rodariam extensões/<em>apps</em> criadas pelo ecossistema de parceiros da VTEX. Era necessário projetar tanto a experiência de uso para o perfil de gerente quanto para o perfil mais técnico de desenvolvedor—este que foi o foco inicial da criação do produto, pois também tiraria proveito da ferramenta de código por trás do <em>Storefront</em>: o <em>Render</em>.</p>
@@ -142,7 +144,7 @@ order: 2
     <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">Conceito e interface gráfica do editor de configurações de componentes</li>
     <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">Integração da UI com a Extension/App Store</li>
     <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">Versionamento e Rascunhos de configurações</li>
-    <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">Teste A/B</li>
+    <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted b--black-20">Suporte nativo a Teste A/B</li>
   </ul>
 
   <section class="tc">

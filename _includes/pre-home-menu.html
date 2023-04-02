@@ -1,8 +1,10 @@
 <section class="bg-black-05">
 	<nav class="black-20">
 		<ol class="ma0 pa0 vh-75 flex flex-column items-center justify-end justify-end-m justify-center-ns pb6 pb6-m pb0-ns">
-			<li class="f1 f-headline-ns fw2 ma0 mb4 mb5-ns lh-solid"><a href="/design" class=" tracked-tight fw5 link db purple hover-hot-pink" title="Trabalho como Product Designer">Design</a></li>
-			<li class="f1 f-headline-ns fw2 ma0 mb4 mb5-ns lh-solid"><a href="/music" class=" tracked-tight fw5 link db purple hover-hot-pink" title="Trabalho como DJ e Produtore Musical">Música</a></li>
+			{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+			{% for i in site.data.t[page.lang] %}
+			<li class="f1 f-headline-ns fw2 ma0 mb4 mb5-ns lh-solid"><a href="{{ i[1].url }}" class=" tracked-tight fw5 link db purple hover-hot-pink" title="{{ i[1].desc }}">{{ i[1].name }}</a></li>
+			{% endfor %}
 		</ol>
 	</nav>
 </section>

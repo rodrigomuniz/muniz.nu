@@ -8,6 +8,8 @@ roles: Arquitetura da Informação, Resposive Web Design, HTML/CSS/JS, CMS Jekyl
 hero_image: /images/portfolio/thais-hero.jpg
 thumbnail: /images/portfolio/thais-hero-thumb.jpg
 excerpt: "Comandei a Arquitetura da informação, design responsivo e CMS do site da candidata à deputada estadual no RJ, que ajudou a coletar mais de R$78 mil em doações na campanha de 2018"
+lang: pt-br
+ref: freelance-thais-ferreira
 ---
 
 <p class="ph2 f3 f2-ns lh-copy measure center tl tl-m tc-ns">A jovem figura pública do movimento negro, Thais Ferreira, estava se candidatando pela primeira a um cargo político partidário como deputada estadual no RJ e precisava de um website que contasse a sua tragetória, que oferecesse também um <em>hub</em> de links dos canais de suas redes sociais e principalmente fosse um coletor de doações e inscrições de voluntários para trabalhar na sua campanha eleitoral. Entrei como um dos voluntários no pojeto para ajudar a equipe de comunicação a pensar a arquitetura da informação, transformar o layout estático em responsivo e implementar o CMS <em>Jekyll</em>.</p>

@@ -1,0 +1,20 @@
+pt-br:
+  design:
+    name: Design
+    desc: Trabalho como Product Designer
+    url: /design/
+  music:
+    name: Música
+    desc: Trabalho como DJ e Produtore Musical
+    url: /music/
+en:
+  design:
+    name: Design
+    desc: My work as Product Designer
+    url: /design/en/
+  music:
+    name: Music
+    desc: My work as DJ and Music Producer
+    url: /music/en/
+
+

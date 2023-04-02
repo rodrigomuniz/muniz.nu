@@ -1,3 +1,6 @@
----
-- label: Destaque
-  iframe-url: https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=0&feed=%2Fcrimenoize%2Fmix-baile-das-bandidas-1%2F
+pt-br:
+  - label: Destaque
+    iframe-url: https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=0&feed=%2Fcrimenoize%2Fmix-baile-das-bandidas-1%2F
+en:
+  - label: Featured
+    iframe-url: https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=0&feed=%2Fcrimenoize%2Fmix-baile-das-bandidas-1%2F

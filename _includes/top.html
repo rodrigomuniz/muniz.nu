@@ -1,19 +1,47 @@
-<html lang="pt-br">
+<html lang="{{ page.lang }}">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="{{ page.keywords }}">
 <meta name="author" content="Rodrigo Muniz">
 
 <head>
-	<title>{{ page.subtitle }} - {{ page.title }}</title>
+	<title>
+		{% if page.subtitle %}
+			{{ page.subtitle }} - 
+		{% endif %}
+		{% if page.layout == 'project' %}
+			{{ page.title }} - Portfolio - {{ site.title }}
+		{% else %}
+			{{ page.title }} - {{ site.title }}
+		{% endif %}
+	</title>
 
 	<meta property="og:type" content="website" />
 	<meta property="og:site_name" content="{{ page.title }}" />
 	<meta property="og:title" content="{{ page.subtitle }}" />
-	<meta property="og:description" content="{{ page.description }}" />
+	{%if page.hero_image %}
+	<meta property="og:image" content="{{ site.githuburl }}{{ page.hero_image }}" />
+	{% else %}
 	<meta property="og:image" content="{{ site.githuburl }}/images/website_thumb_design.jpg" />
+	{% endif %}
 	<meta property="og:url" content="{{ site.githuburl }}" />
 
 	<link href="/style/main.css" rel="stylesheet" type="text/css" />
+	{% if page.url == '/' %}
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	{% endif %}
+	<!-- <script>
+		alert("{{ page.layout }}")
+	</script> -->
 </head>
+{% if page.url == '/music/' or page.url == '/music/en' %}
+<body class="home sans-serif mw8 mw9-ns center pb3 ma0">
+{% else %}
 <body class="home sans-serif ma0 near-white">
+{% endif %}
+
+{% if page.url == '/music/' or page.url == '/music/en' %}
+{% include music-featured-dj-set.html %}
+{% endif %}
+
+{% include header.html %}

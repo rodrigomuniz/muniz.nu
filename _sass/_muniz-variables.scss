@@ -23,3 +23,7 @@ $pink: 				rgb(255, 0, 101);
 .b--deep-purple { border-color: $deep-purple; }
 
 .shadow-deep { box-shadow: 3px 3px 0px 0px rgba( 0, 0, 0, 0.3 ); }
+
+.en:lang(en), .pt-br:lang(pt-br){
+  opacity: 0.6;
+}

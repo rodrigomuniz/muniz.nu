@@ -8,4 +8,4 @@ githuburl: https://muniz.nu
 collections:
   portfolio:
     output: true
-    permalink: /portfolio/:path/
+    permalink: /design/:path/
