@@ -2,16 +2,27 @@
 {% include image-zoom-js-plugin.html %}
 {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
 <section>
+	{% if page.lang == "en" %}
+	<div class="flex items-center justify-center pa3 bg-washed-yellow mid-gray bt bb b--light-yellow">
+		<span class="w3 w2-m w1-ns f3">
+			🙏
+		</span>
+		<span class="lh-title ph3 f6">The English version for this case study is still in the works, meanwhile I hope
+			this initial version is able to help you get a good sense of what happened in the project.</span>
+	</div>
+	{% endif %}
 	<article class="pb5 pb5-ns">
 		{%if page.hero_image %}
 		<div class="w-100 contain mb5 cf" style="background:#eae9e9 url({{ page.hero_image }}) no-repeat center;">
 			<div class="vh-50 vh-75-ns mw8 mw9-ns center relative cf">
-			<header class="w-100 absolute bottom-0 right-0 ph2-m ph3-ns">
-				<strong class="fr tracked black-50 f4 f3-ns fw6 ttu dib bg-white-80 pv2 ph2 ph4-m ph4-ns">{{ page.client }}, {{ page.project_year }}</strong>
-				<h1 class="f1 f-headline-ns fw6 ma0 purple lh-solid bg-white-80 pv2 pv3-ns ph2 ph3-m ph4-ns cr tc w-100">
-					{{ page.title }}
-				</h1>
-			</header>
+				<header class="w-100 absolute bottom-0 right-0 ph2-m ph3-ns">
+					<strong class="fr tracked black-50 f4 f3-ns fw6 ttu dib bg-white-80 pv2 ph2 ph4-m ph4-ns">{{
+						page.client }}, {{ page.project_year }}</strong>
+					<h1
+						class="f1 f-headline-ns fw6 ma0 purple lh-solid bg-white-80 pv2 pv3-ns ph2 ph3-m ph4-ns cr tc w-100">
+						{{ page.title }}
+					</h1>
+				</header>
 			</div>
 		</div>
 		{% else %}
@@ -22,19 +33,18 @@
 			</h1>
 		</header>
 		{% endif %}
-
 		<div class="mw8 mw9-ns center ph2-m ph5-ns black-70 f4">
-		<dl class="ma0 ph2 tc f4">
-			<dt class="ttu fw3 f3 black-30">
-				{% if page.lang == "en" %}
-				Responsibilities
-				{% else %}
-				Responsabilidades
-				{% endif %}
-			</dt>
-			<dd class="ma0 black-40">{{page.roles}}</dd>
-		</dl>
-		{{ content }}
+			<dl class="ma0 ph2 tc f4">
+				<dt class="ttu fw3 f3 black-30">
+					{% if page.lang == "en" %}
+					Responsibilities
+					{% else %}
+					Responsabilidades
+					{% endif %}
+				</dt>
+				<dd class="ma0 black-40">{{page.roles}}</dd>
+			</dl>
+			{{ content }}
 		</div>
 	</article>
 </section>
