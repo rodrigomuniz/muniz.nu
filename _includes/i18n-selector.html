@@ -1,5 +1,5 @@
 <ul class="absolute top-0 top-1-ns right-1">
-    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+    {% assign posts = site.posts | where:"ref", page.ref | sort: 'lang' %}
     {% for post in posts %}
       <li class="dib mh1">
         <a href="{{ post.url }}" class="{{ post.lang }} link purple fw6 f6 f5-ns hover-hot-pink">
@@ -8,7 +8,7 @@
       </li>
     {% endfor %}
 
-    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+    {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang' %}
     {% for page in pages %}
       <li class="dib mh1">
         <a href="{{ page.url }}" class="{{ page.lang }} link purple fw6 f6 f5-ns hover-hot-pink">
