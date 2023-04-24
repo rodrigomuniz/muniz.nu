@@ -1,9 +1,9 @@
-<section class="bg-black-05">
-	<nav class="black-20">
-		<ol class="ma0 pa0 vh-75 flex flex-column items-center justify-end justify-end-m justify-center-ns pb6 pb6-m pb0-ns">
+<section class="bg-black-200">
+	<nav class="text-gray-400">
+		<ol class="m-0 p-0 min-h-[75vh] flex flex-col items-center justify-end justify-end-md justify-center-lg pb-6 md:pb-0">
 			{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 			{% for i in site.data.t[page.lang] %}
-			<li class="f1 f-headline-ns fw2 ma0 mb4 mb5-ns lh-solid"><a href="{{ i[1].url }}" class=" tracked-tight fw5 link db purple hover-hot-pink" title="{{ i[1].desc }}">{{ i[1].name }}</a></li>
+			<li class="text-5xl md:text-8xl font-semibold my-4 md:my-5 leading-none"><a href="{{ i[1].url }}" class="font-medium tracking-tight block text-purple hover:text-hot-pink" title="{{ i[1].desc }}">{{ i[1].name }}</a></li>
 			{% endfor %}
 		</ol>
 	</nav>

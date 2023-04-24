@@ -9,3 +9,8 @@ collections:
   portfolio:
     output: true
     permalink: /design/:path/
+
+plugins:
+  - jekyll-postcss
+postcss:
+  cache: false

@@ -1,58 +1,76 @@
 {% comment %} ## home and music index need header with no classname {% endcomment %}
 {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 {% if page.url == '/' or page.url == '/en' %}
-<header class="bg-black-05 bb black-05 relative">
-{% elsif page.url == '/music/' or  page.url == '/music/en' %}
-<header class="relative">
-{% else %}
-<header class="mw8 mw9-ns center relative">
-{% endif %}
-
-{% if page.url == '/' or page.url == '/en' %}
-	<nav class="mw8 mw9-ns center pv3 pv4-ns ph3 ph3-m ph5-ns">
-		<span class="silver f5 fw4 mr2">muniz.nu</span>
-        <span class="light-silver f5 fw4 mr2">/</span>
-        <p class="dn">Escolha uma opção:</p>
-	</nav>
-{% endif %}
-
-{% comment %} ## portfolio homepage header {% endcomment %}
-{% if page.url == '/design/' or page.url == '/design/en' %}
-	<nav class="pv3 pv4-ns ph3 ph3-m ph5-ns ttl">
-		<a class="link purple fw6 f6 f5-ns hover-hot-pink mr2" href="/" title="Início">muniz.nu</a>
-		<span class="link gray    f6 f5-ns dib mr2" href="#">/</span>
-		<span class="link gray    f6 f5-ns dib mr2" href="#">design</span>
-	</nav>
-{% endif %}
-
-{% comment %} ## project header {% endcomment %}
-{% if page.layout == 'project' %}
-	<nav class="pv3 pv4-ns ph3 ph3-m ph5-ns ttl">
-	  <a class="link purple fw6 f6 f5-ns hover-hot-pink mr1 mr2-ns" href="/" title="Início">muniz.nu</a>
-	  <span class="link black-20    f6 f5-ns dib mr1 mr2-ns" href="#">/</span>
-	  {% if page.lang == "en" %}
-	  <a class="link purple fw6 f6 f5-ns hover-hot-pink mr1 mr2-ns" href="/design/en">design</a>
-	  {% else %}
-	  <a class="link purple fw6 f6 f5-ns hover-hot-pink mr1 mr2-ns" href="/design">design</a>
-	  {% endif %}
-
-		<span class="link black-20    f6 f5-ns dib mr1 mr2-ns" href="#">/</span>
-	  <span class="link black-30    f6 f5-ns dib mr1 mr2-ns" href="#">{{ page.title }}</span>
-	</nav>
-{% endif %}
-
-{% comment %} ## music header {% endcomment %}
-{% if page.url == '/music/' or page.url == '/music/en' %}
-	<nav class="pv3 pv4-ns ph3 ph4-m ph5-ns ttl">
-		<a class="link purple fw6 f6 f5-ns hover-hot-pink mr2" href="/" title="Início">muniz.nu</a>
-		<span class="link gray    f6 f5-ns dib mr2" href="#">/</span>
-		{% if page.lang == "en" %}
-		<span class="link gray    f6 f5-ns dib mr2" href="#">music</span>
+<header class="bg-black-200 border-b border-black-50 relative">
+	{% elsif page.url == '/music/' or page.url == '/music/en' %}
+	<header class="relative">
 		{% else %}
-		<span class="link gray    f6 f5-ns dib mr2" href="#">música</span>
-		{% endif %}
-	</nav>
-{% endif %}
+		<header class="max-w-screen-md mx-auto relative">
+			{% endif %}
+			{% if page.url == '/' or page.url == '/en' %}
+			<nav class="max-w-screen-md mx-auto py-3 md:py-4 px-3 md:px-5">
+				<span class="text-silver text-base font-normal mr-2">muniz.nu</span>
+				<span class="text-light-silver text-base font-normal mr-2">/</span>
+				<p class="hidden">Escolha uma opção:</p>
+			</nav>
+			{% endif %}
 
-{% include i18n-selector.html %}
-</header>
+			{% comment %} ## portfolio homepage header {% endcomment %}
+			{% if page.url == '/design/' or page.url == '/design/en' %}
+			<nav class="py-3 md:py-4 px-3 md:px-5 text-center">
+				{% if page.lang == "en" %}
+				<a class="text-purple font-semibold text-base md:text-lg hover:text-hot-pink mr-2" href="/en"
+					title="Home">muniz.nu</a>
+				<span class="text-gray text-base font-normal mr-2" href="#">/</span>
+				<span class="text-gray text-base font-normal mr-2" href="#">design</span>
+				{% else %}
+				<a class="text-purple font-semibold text-base md:text-lg hover:text-hot-pink mr-2" href="/"
+					title="Início">muniz.nu</a>
+				<span class="text-gray text-base font-normal mr-2" href="#">/</span>
+				<span class="text-gray text-base font-normal mr-2" href="#">design</span>
+				{% endif %}
+			</nav>
+			{% endif %}
+
+			{% comment %} ## project header {% endcomment %}
+			{% if page.layout == 'project' %}
+			<nav class="py-3 md:py-4 px-3 md:px-5 text-center">
+				{% if page.lang == "en" %}
+				<a class="text-purple font-semibold text-base md:text-lg hover:text-hot-pink mr-1 md:mr-2" href="/en"
+					title="Home">muniz.nu</a>
+				<span class="text-black-20 text-base font-normal mr-1 md:mr-2" href="#">/</span>
+				<a class="text-purple font-semibold text-base md:text-lg hover:text-hot-pink mr-1 md:mr-2"
+					href="/design/en">design</a>
+				{% else %}
+				<a class="text-purple font-semibold text-base md:text-lg hover:text-hot-pink mr-1 md:mr-2" href="/"
+					title="Início">muniz.nu</a>
+				<span class="text-black-20 text-base font-normal mr-1 md:mr-2" href="#">/</span>
+				<a class="text-purple font-semibold text-base md:text-lg hover:text-hot-pink mr-1 md:mr-2"
+					href="/design">design</a>
+				{% endif %}
+
+				<span class="text-black-20 text-base font-normal mr-1 md:mr-2" href="#">/</span>
+				<span class="text-black-30 text-base font-normal mr-1 md:mr-2" href="#">{{ page.title }}</span>
+			</nav>
+			{% endif %}
+
+			{% comment %} ## music header {% endcomment %}
+			{% if page.url == '/music/' or page.url == '/music/en' %}
+			<nav class="px-3 py-4 sm:px-4 md:px-5 lg:px-5 ttl">
+				{% if page.lang == "en" %}
+				<a class="text-purple font-semibold text-sm md:text-base lg:text-base hover:text-pink-500 mr-2"
+					href="/en" title="Home">muniz.nu</a>
+				<span class="text-gray-500 text-sm md:text-base lg:text-base inline-block mr-2">/</span>
+				<span class="text-gray-500 text-sm md:text-base lg:text-base inline-block mr-2">music</span>
+				{% else %}
+				<a class="text-purple font-semibold text-sm md:text-base lg:text-base hover:text-pink-500 mr-2" href="/"
+					title="Início">muniz.nu</a>
+				<span class="text-gray-500 text-sm md:text-base lg:text-base inline-block mr-2">/</span>
+				<span class="text-gray-500 text-sm md:text-base lg:text-base inline-block mr-2">música</span>
+				{% endif %}
+			</nav>
+
+			{% endif %}
+
+			{% include i18n-selector.html %}
+		</header>
