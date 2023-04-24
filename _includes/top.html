@@ -30,8 +30,10 @@
 	{% if page.url == '/' %}
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 	{% endif %}
+	
+	<script type="module" src="/scripts/three.js"></script>
 	<!-- <script>
-		alert("{{ page.layout }}")
+		alert("{{ page.threejs }}")
 	</script> -->
 </head>
 {% if page.url == '/music/' or page.url == '/music/en' %}

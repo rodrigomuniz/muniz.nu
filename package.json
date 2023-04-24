@@ -6,6 +6,7 @@
     "url": "git://github.com/rodrigomuniz/muniz.nu.git"
   },
   "dependencies": {
+    "three": "^0.151.3",
     "uuid": "^9.0.0"
   },
   "description": "muniz.nu ========",

@@ -1,0 +1,23 @@
+.three-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 75vh;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    isolation: isolate;
+}
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, #5F4B8B -80%, #000 80%);
+    z-index: -1;
+}
+// .overlay-block {
+//     width: 50vw;
+//     height: 100vh;
+// }
