@@ -2,15 +2,6 @@
 {% include image-zoom-js-plugin.html %}
 {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
 <section>
-	{% if page.lang == "en" %}
-	<div class="flex items-center justify-center pa3 bg-washed-yellow mid-gray bt bb b--light-yellow">
-		<span class="w3 w2-m w1-ns f3">
-			🙏
-		</span>
-		<span class="lh-title ph3 f6">The English version for this case study is still in the works, meanwhile I hope
-			this initial version is able to help you get a good sense of what happened in the project.</span>
-	</div>
-	{% endif %}
 	<article class="pb5 pb5-ns">
 		{%if page.hero_image %}
 		<div class="w-100 contain mb5 cf" style="background:#eae9e9 url({{ page.hero_image }}) no-repeat center;">
