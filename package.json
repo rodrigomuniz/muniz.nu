@@ -20,6 +20,6 @@
   "author": "Rodrigo Muniz",
   "license": "ISC",
   "devDependencies": {
-    "netlify-cli": "^15.3.1"
+    "netlify-cli": "^16.9.3"
   }
 }
